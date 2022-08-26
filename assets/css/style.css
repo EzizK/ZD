@@ -1579,14 +1579,14 @@ margin-left: 2rem;
 } */
 
 .shape-divider {
-  background-color: #40d840;
+  background-color: #147a14;
 }
 
 .shape2 {
   rotate: 180deg;
   background-color: #147a14;
-  color: #18d26e;
-  fill: #147a14;
+  color: #9e140a;
+  fill: darkblue;
 }
 
 .slogan h2 {
