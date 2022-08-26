@@ -55,7 +55,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #50d8af;
+  background: green;
   width: 40px;
   height: 40px;
   transition: all 0.4s;
@@ -1591,5 +1591,12 @@ margin-left: 2rem;
 } */
 
 .shape-divider {
-  background-color: #000;
+  background-color: #40d840;
+}
+
+.shape2 {
+  rotate: 180deg;
+  background-color: #147a14;
+  color: #18d26e;
+  fill: #147a14;
 }
