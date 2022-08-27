@@ -8,6 +8,25 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+:root {
+  --color-primary:#147a14;
+  --color-secondary:#918ca4;
+  --color-header:white;
+  --color-button:#183f72;
+  --color-background-main:#147a14;
+  --border-radius-button:4px;
+  --text-color:black;
+  --font:"Montserrat", sans-serif;
+  --line-height:1.5;
+  --max-char: 50ch;
+}
+
+
+/* Typography */
+/* html {
+  font-size: 62.5%;
+} */
+
 body {
   background: #fff;
   color: #444;
@@ -44,6 +63,7 @@ h6 {
   margin: 0 0 20px 0;
   padding: 0;
 }
+
 
 
 /*--------------------------------------------------------------
@@ -520,7 +540,8 @@ font-size: 13px;
 
 #hero .hero-slider::before {
   content: "";
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 52, 52, 0.486);
+  opacity:0.2;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -1486,20 +1507,24 @@ margin-left: 2rem;
 }
 
 .learnmore {
+  display:flex;
+  position:absolute;
   padding: 0.5rem;
-  border: 1px solid #147a14;
-  height: fit-content;
+  border: 1px solid var(--color-button);
+  min-height:max-content;
   background-color: #fff;
-  width: 100%;
+  width: max-content;
+  text-align:center;
+  align-items: center;
   font-weight: 600;
-  color: #147a14;
-  border-radius: 4px;
+  color:var(--color-button);
+  border-radius: var(--border-radius-button);
   transition: all 0.3s linear;
 }
 
 .learnmore:hover {
-  border: 1px solid #147a14;
-  background-color: #147a14;
+  border: 1px solid #183f72;
+  background-color: #183f72;
   color: #fff;
 }
 
