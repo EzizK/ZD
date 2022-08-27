@@ -41,8 +41,8 @@
   <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:zehinli.doganlar@mail.ru">zehinli.doganlar@mail.ru</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><a href="tel:+99365369298">+993 65 369298</a></i>
+        <i class="bi bi-envelope d-flex align-items-center" style="color: blue;"><a href="mailto:zehinli.doganlar@mail.ru">zehinli.doganlar@mail.ru</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4" style="color: blue;"><a href="tel:+99365369298">+993 65 369298</a></i>
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
       </div>
@@ -84,7 +84,7 @@
   </header><!-- End Header -->
 
   <!-- ======= hero Section ======= -->
-  <section id="hero">
+  <section id="hero" class="curved">
 
     <div class="hero-content slogan" data-aos="fade-up">
       <h2 class="lang" key="bitewilik1">Наш девиз: <br> <span>«целостность & сохранность»</span></h2> 
@@ -100,9 +100,8 @@
         <!-- <div class="swiper-slide" style="background-image: url('assets/img/hero-carousel/5.jpg');"></div> -->
       </div>
     </div>
-    
+      </section><!-- End Hero Section -->
 
-  </section><!-- End Hero Section -->
 
   <main id="main">
 
@@ -111,33 +110,35 @@
       <div class="container section-header" data-aos="fade-up">
         <div class="row">
 
+          <div class="col-lg-5 about-img">
+            <img src="assets/img/about-img.jpg" alt="">
+          </div>
 
-          <div class="col-lg-6 content">
+          <div class="col-lg-7 content">
             <h2 class="lang" key="about_short">О нас</h2>
             <h3 class="header lang" key="about1">
               </h3>
               <h3 class="lang" key="about2">Основной деятельностью хозяйственного общество является предоставления охранных услуг, специализирующейся на услугах по физической и пультовой  охране объектов, и их периметра. В перечень услуг компании входят  невооруженная охрана объектов и имущества, обеспечение внутри объектного и пропускного режима на объектах, монтаж и техническое обслуживание охранной и тревожной сигнализации. Компания предоставляет охранные услуги как частным лицам, так и мелким и крупным предприятиям, а так же иностранным компаниям, работающим на территории Туркменистана.</h3>
 
-            <ul>
+            <!-- <ul>
               <li><i class="bi bi-check-circle lang"></i></li>
               <li><i class="bi bi-check-circle lang"></i></li>
-            </ul>
+            </ul> -->
+            <br>
             <div class="call-to-action">
                 <a class="learnmore lang" key="learn_more" href="about.html">Узнать больше</a>
             </div>
           </div>
 
-          <div class="col-lg-6 about-img">
-            <img src="assets/img/about-img.jpg" alt="">
-          </div>
         </div>
+
 
       </div>
     </section><!-- End About Section -->
 
 
         <!-- ======= Call To Action Section 1 ======= -->
-        <div class="shape">
+        <!-- <div class="shape">
           <div class="shape-divider" style="height: 116px;">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 116" preserveAspectRatio="xMinYMin">
               <path class="custom-svg-fill-color-tertiary-darken" d="M0,24c2.86,0.42,7.41,1.1,13,2c6.13,0.98,10.67,1.77,12,2c11.67,2.01,42.24,7.05,68,11
@@ -150,19 +151,19 @@
                 c33.26-3.78,60.85-7.38,80-10c0-9.01,0-18.01,0-27.02c-644,0-1288,0-1932,0C-6.33,4.99-6.67,13.99-7,23z"></path>
             </svg>
           </div>
-        </div>
+        </div> -->
         <section id="call-to-action">
           <!-- <img src="assets/img/hero-carousel/1.jpg" alt=""> -->
-          <div class="container " data-aos="zoom-out">
-            <div class="col-lg-9 text-center text-lg-start">
-            <div class="row">
-                <h3 class="cta-text lang" key="section1h3">Обращаясь к ЧОП «Зехинли доганлар» </h3>
-                <p class="cta-title lang" key="section1p"> «Вы сохраните свое имущество в целостности и сохранности!»</p>
+            <div class="container" data-aos="zoom-out">
+              <div class="col-lg-9 text-center text-lg-start">
+              <div class="row">
+                  <h3 class="cta-text lang" key="section1h3">Обращаясь к ЧОП «Зехинли доганлар» </h3>
+                  <p class="cta-title lang" key="section1p"> «Вы сохраните свое имущество в целостности и сохранности!»</p>
+                </div>
               </div>
             </div>
-          </div>
         </section><!-- End Call To Action Section -->
-        <div class="shape2">
+        <!-- <div class="shape2">
           <div class="shape-divider" style="height: 116px;">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 116" preserveAspectRatio="xMinYMin">
               <path class="custom-svg-fill-color-tertiary-darken" d="M0,24c2.86,0.42,7.41,1.1,13,2c6.13,0.98,10.67,1.77,12,2c11.67,2.01,42.24,7.05,68,11
@@ -175,7 +176,7 @@
                 c33.26-3.78,60.85-7.38,80-10c0-9.01,0-18.01,0-27.02c-644,0-1288,0-1932,0C-6.33,4.99-6.67,13.99-7,23z"></path>
             </svg>
           </div>
-        </div>
+        </div> -->
         
 
     <!-- ======= Services Section ======= -->
@@ -335,23 +336,23 @@
 
           <div class="col-md-4">
             <div class="contact-address">
-              <i class="bi bi-geo-alt"></i>
-              <h3 class="lang" key="adres1">Address</h3>
+              <i class="bi bi-geo-alt" style="color: red;"></i>
+              <h3 class="lang" key="adres1">Адрес</h3>
               <address class="lang" key="adres2">Türkmenbaşy şäheri, Şagadam söwda merkezi</address>
             </div>
           </div>
 
           <div class="col-md-4">
             <div class="contact-phone">
-              <i class="bi bi-phone"></i>
-              <h3 class="lang" key="phone_number">Phone Number</h3>
+              <i class="bi bi-phone" style="color: blue;"></i>
+              <h3 class="lang" key="phone_number">Номер телефона</h3>
               <p><a href="tel:+99365369298">+99365369298</a></p>
             </div>
           </div>
 
           <div class="col-md-4">
             <div class="contact-email">
-              <i class="bi bi-envelope"></i>
+              <i class="bi bi-envelope" style="color:orangered;"></i>
               <h3 class="lang" key="email">Email</h3>
               <p><a href="mailto:zehinli.doganlar@mail.ru">zehinli.doganlar@mail.ru</a></p>
             </div>
