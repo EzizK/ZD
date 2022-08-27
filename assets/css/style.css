@@ -1487,7 +1487,7 @@ margin-left: 2rem;
 
 .learnmore {
   padding: 0.5rem;
-  border: 3px solid #147a14;
+  border: 1px solid #147a14;
   height: fit-content;
   background-color: #fff;
   width: 100%;
@@ -1498,7 +1498,7 @@ margin-left: 2rem;
 }
 
 .learnmore:hover {
-  border: 3px solid #147a14;
+  border: 1px solid #147a14;
   background-color: #147a14;
   color: #fff;
 }
