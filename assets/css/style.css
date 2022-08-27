@@ -19,6 +19,8 @@
   --font:"Montserrat", sans-serif;
   --line-height:1.5;
   --max-char: 50ch;
+  --color-hero:white;
+  --color-blue:#0c2e8a;
 }
 
 
@@ -187,7 +189,7 @@ h6 {
 }
 
 #header #logo h1 a {
-  color: #0c2e8a;
+  color: var(--color-blue);
 }
 
 #header #logo h1 a span {
@@ -338,7 +340,7 @@ font-size: 13px;
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #0c2e8a;
+  color: var(--color-blue);
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -395,7 +397,7 @@ font-size: 13px;
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #0c2e8a;
+  color: var(--color-blue);
 }
 
 .navbar-mobile a:hover,
@@ -470,15 +472,15 @@ font-size: 13px;
 }
 
 #hero .hero-content h2 {
-  color: #0c2e8a;
+  color: var(--color-hero);
   margin-bottom: 30px;
   font-size: 35px;
   font-weight: 700;
 }
 
 #hero .hero-content h2 span {
-  color: #0c2e8a;
-  text-decoration: underline;
+  color: var(--color-hero);
+  text-decoration: capitalize;
 }
 
 @media (max-width: 767px) {
@@ -502,13 +504,13 @@ font-size: 13px;
 }
 
 #hero .hero-content .btn-get-started {
-  background: #0c2e8a;
-  border: 2px solid #0c2e8a;
+  background: var(--color-button);
+  border: 2px solid var(--color-button);
 }
 
 #hero .hero-content .btn-get-started:hover {
   background: none;
-  color: #0c2e8a;
+  color: var(--color-blue);
 }
 
 #hero .hero-content .btn-projects {
@@ -540,8 +542,8 @@ font-size: 13px;
 
 #hero .hero-slider::before {
   content: "";
-  background-color: rgba(255, 52, 52, 0.486);
-  opacity:0.2;
+  background-color: var(--color-secondary);
+  opacity:0.5;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -577,7 +579,7 @@ section {
 
 .section-header h2 {
   font-size: 32px;
-  color: #0c2e8a;
+  color: var(--color-blue);
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
@@ -683,7 +685,7 @@ section {
 
 
 #about .content h2 {
-  color: #0c2e8a;
+  color: var(--color-blue);
   font-weight: 700;
   font-size: 36px;
   font-family: "Raleway", sans-serif;
@@ -1641,10 +1643,10 @@ margin-left: 2rem;
   left: 5%;
   text-transform: uppercase;
   font-style: italic;
-}
+  }
 
 
-.slogan h2 span {
+#hero .slogan h2 span {
   font-size: larger;
   font-weight: 700;
 }
@@ -1653,3 +1655,4 @@ margin-left: 2rem;
 * h3 {
   font-style: italic;
 }
+
