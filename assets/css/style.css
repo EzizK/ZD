@@ -92,7 +92,7 @@ h6 {
 
 .back-to-top:hover {
   background: lightslategrey;
-  color: #fff;
+  color: var(--color-blue);
 }
 
 .back-to-top.active {
@@ -1422,12 +1422,13 @@ color: #333;
   color: black;
   display: flex;
   align-items: center;
+  box-shadow: 1px 5px 12px 1px rgb(156, 155, 155);
 }
 
 /* Style the back side */
 .flip-box-back {
   background-color: white;
-  box-shadow: 1px 5px 12px 1px lightgray;
+  box-shadow: 1px 5px 12px 1px rgb(156, 155, 155);
   color: black;
   font-style: italic;
   max-width: 50ch;
@@ -1453,7 +1454,8 @@ position: relative;
 }
 
 .flip-box-front h2 {
-  z-index: 2;
+  color:black;
+  z-index: 9;
 }
 
 .grid-3x2 {
@@ -1475,7 +1477,7 @@ position: relative;
 
 }
 
-@media (max-width: 769px) {
+@media (max-width: 770px) {
   .grid-3x2 {
     display: grid;
     grid-template-columns:repeat(1, 1fr);
@@ -1484,6 +1486,11 @@ position: relative;
     row-gap: 10px;
   }
 
+  .flip-box {
+    width:60%;
+    margin-left: auto;
+    margin-right:auto;
+  }
 }
 
 
