@@ -62,11 +62,11 @@
       </div>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active lang" href="index.html" key="home">Home</a></li>
+          <li><a class="nav-link scrollto active lang" href="index.html" key="home">Главная</a></li>
           <li><a class="nav-link scrollto lang" href="about.html" key="about">О нас</a></li>
           <li><a class="nav-link scrollto lang" href="services.html" key="services">Услуги</a></li>
           <li><a class="nav-link scrollto lang" href="gallery.html" key="gallery">Галерея</a></li>
-          <li><a class="nav-link scrollto lang" href="contact.html" key="contact">Contact</a></li>
+          <li><a class="nav-link scrollto lang" href="contact.html" key="contact">Контакты</a></li>
           <li class="dropdown">
             <a href="#"><span key="active_lang" class="lang">EN</span><i class="bi bi-chevron-down langs"></i></a>
             <ul>
@@ -259,6 +259,13 @@
           </div>
       </div>
     </section><!-- End Services Section -->
+<br>
+
+<!-- Anchor to services page -->
+    <div class="container" data-aos="fade-up">
+      <a class="learnmore lang" key="learn_more" href="services.html">Узнать больше</a>
+  </div>
+
 
     <!-- ======= Call To Action Section ======= -->
     <div class="shape">
@@ -322,23 +329,25 @@
               <li class="list_step">Круглосуточную поддержку</li>
               <li class="list_step">Спокойную жизнь и возможность сконцентрировать силы на своих целях, не беспокоясь о безопасности</li>
             </ul>
+            <h3 class="summary">Охранная компания <b>«Зехинли доганлар»</b> - это разумный выбор для защиты любого объекта. Мы являемся признанным лидером в области безопасности, поддерживая охранные стандарты и обеспечивая сохранность всего, за что отвечаем. </h3>
           </div>
         </section>
         <!-- END OF WORK LIST SECTION -->
 
 
     <!-- ======= Contact Section ======= -->
+
     <section id="contact">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h2>Contact Us</h2>
+          <h2>Связаться с нами</h2>
         </div>
 
         <div class="row contact-info">
 
           <div class="col-md-4">
             <div class="contact-address">
-              <i class="bi bi-geo-alt" style="color: red;"></i>
+              <i class="bi bi-geo-alt" style="color: black; opacity: 0.8;"></i>
               <h3 class="lang" key="adres1">Адрес</h3>
               <address class="lang" key="adres2">Türkmenbaşy şäheri, Şagadam söwda merkezi</address>
             </div>
@@ -346,7 +355,7 @@
 
           <div class="col-md-4">
             <div class="contact-phone">
-              <i class="bi bi-phone" style="color: blue;"></i>
+              <i class="bi bi-phone" style="color: black; opacity: 0.8;"></i>
               <h3 class="lang" key="phone_number">Номер телефона</h3>
               <p><a href="tel:+99365369298">+99365369298</a></p>
             </div>
@@ -354,7 +363,7 @@
 
           <div class="col-md-4">
             <div class="contact-email">
-              <i class="bi bi-envelope" style="color:orangered;"></i>
+              <i class="bi bi-envelope" style="color:black; opacity: 0.8;"></i>
               <h3 class="lang" key="email">Email</h3>
               <p><a href="mailto:zehinli.doganlar@mail.ru">zehinli.doganlar@mail.ru</a></p>
             </div>
@@ -367,34 +376,33 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div> -->
 
-      <div class="container">
-        <div class="form">
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-            <div class="row">
-              <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+      <div class="karobka" data-aos="fade-right">
+        <div class="container">
+          <div class="form">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group col-md-6 mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
               </div>
-              <div class="form-group col-md-6 mt-3 mt-md-0">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
-            </div>
-            <div class="form-group mt-3">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-            </div>
-            <div class="form-group mt-3">
-              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-            </div>
-
-            <div class="my-3">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-            </div>
-
-            <div class="text-center"><button type="submit">Send Message</button></div>
-          </form>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
         </div>
-
       </div>
     </section><!-- End Contact Section -->
 
