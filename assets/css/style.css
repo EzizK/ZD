@@ -13,6 +13,7 @@
   --color-secondary:#918ca4;
   --color-header:white;
   --color-button:#183f72;
+  --color-button-hover:#3483eb;
   --color-background-main:#147a14;
   --border-radius-button:4px;
   --text-color:black;
@@ -21,6 +22,7 @@
   --max-char: 50ch;
   --color-hero:white;
   --color-blue:#0c2e8a;
+  --color-logo:#002047;
 }
 
 
@@ -31,7 +33,7 @@
 
 body {
   background: #fff;
-  color: #444;
+  color: #002047;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -189,14 +191,14 @@ h6 {
 }
 
 #header #logo h1 a {
-  color: var(--color-blue);
+  color: var(--color-logo);
 }
 
 #header #logo h1 a span {
 font-weight: 400;
 justify-content: center;
 display: flex;
-font-size: 13px;
+font-size: 15px;
 }
 
 #header #logo img {
@@ -253,7 +255,7 @@ font-size: 13px;
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: 600;
-  color: #444;
+  color: #002047;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -669,7 +671,8 @@ section {
 
 #about .about-img img {
   margin-left: -15px;
-  max-width: 100%;
+  max-width: 95%;
+  margin-top: 30px;
 }
 
 @media (max-width: 768px) {
@@ -1094,13 +1097,15 @@ section {
 
 #call-to-action .cta-title {
   color: #fff;
-  font-size: 28px;
+  font-size: 36px;
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
 }
 
 #call-to-action .cta-text {
   color: #fff;
-  font-size: 20px;
+  font-size: 26px;
 }
 
 
@@ -1521,19 +1526,19 @@ margin-left: 2rem;
   padding: 0.5rem;
   border: 1px solid var(--color-button);
   min-height:max-content;
-  background-color: #fff;
+  background-color: var(--color-button);
   width: max-content;
   text-align:center;
   align-items: center;
   font-weight: 600;
-  color:var(--color-button);
+  color:#fff;
   border-radius: var(--border-radius-button);
   transition: all 0.3s linear;
 }
 
 .learnmore:hover {
-  border: 1px solid #183f72;
-  background-color: #183f72;
+  border: 1px solid var(--color-button-hover);
+  background-color: var(--color-button-hover);
   color: #fff;
 }
 
@@ -1641,7 +1646,7 @@ margin-left: 2rem;
   rotate: 180deg;
   background-color: #147a14;
   color: #9e140a;
-  fill: darkblue;
+  fill: black;
 }
 
 .slogan h2 {
@@ -1661,5 +1666,33 @@ margin-left: 2rem;
 * h2,
 * h3 {
   font-style: italic;
+}
+
+.works {
+  display: block;
+}
+
+.list_step {
+  font-size: 20px;
+  color: var(--color-blue);
+  font-style: italic;
+  margin-top: 1rem;
+  display: flex;
+}
+
+#work ul li:before
+{
+    content: '\2713';
+    display: inline-block;
+
+    color: green;
+    padding: 0 6px 0 0;
+    margin-right: 0.6rem;
+}
+
+#work ul li
+{
+    list-style-type: none;
+    font-size: 1.5em;
 }
 
