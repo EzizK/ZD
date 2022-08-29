@@ -532,7 +532,7 @@ font-size: 15px;
   height: 50vh;
   border-bottom-left-radius: 50% 18%;
   border-bottom-right-radius: 50% 18%;
-  border-bottom: solid 16px black;
+  border-bottom: solid 16px var(--color-logo);
 }
 
 
@@ -671,7 +671,7 @@ section {
 }
 
 #about .about-img img {
-  margin-left: -15px;
+  margin-left: 5px;
   max-width: 95%;
   height: auto;
   margin-top: 30px;
@@ -1242,7 +1242,7 @@ color: #333;
 }
 
 #contact .contact-info a:hover {
-  color: red;
+  color: var(--color-blue);
   font-weight: bolder;
 }
 
@@ -1324,7 +1324,7 @@ color: #333;
   height: 24px;
   margin: 0 10px -6px 0;
   border: 3px solid #18d26e;
-  border-top-color: #eee;
+  border-top-color: var(--color-secondary);
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
@@ -1655,13 +1655,20 @@ margin-left: 2rem;
 
 .shape-divider {
   background-color: #147a14;
+  color: var(--color-logo);
 }
 
-.shape2 {
+.shape-up {
+  background-color: #147a14;
+  color: var(--color-logo);
+  fill: var(--color-logo);
+}
+
+.shape-down {
   rotate: 180deg;
   background-color: #147a14;
-  color: #9e140a;
-  fill: black;
+  color: var(--color-logo);
+  fill: var(--color-logo);
 }
 
 .slogan h2 {
@@ -1759,9 +1766,10 @@ margin-left: 2rem;
 .karobka {
   display: flex;
   width: 40%;
-  border: #000 solid 2px;
+  border: var(--color-logo) solid 2px;
   padding: 1rem;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 1px 5px 12px 1px rgb(156, 155, 155);  
+  border-radius: 4px;
+  box-shadow: 1px 4px 13px 0 var(--color-logo);
 }
