@@ -1775,12 +1775,31 @@ margin-left: 2rem;
 
 .karobka {
   display: flex;
-  width: 40%;
-  border: var(--color-logo) solid 2px;
+  width: 100%;
+  /* border: var(--color-logo) solid 0.5px; */
   padding: 1rem;
-  margin-left: auto;
-  margin-right: auto;
+
   border-radius: 4px;
-  box-shadow: 1px 4px 13px 0 var(--color-logo);
+  /* box-shadow: 1px 4px 13px 0 var(--color-logo); */
 }
 
+.sonky {
+  width: 100%;
+  /* border-radius: 23% 77% 27% 73% / 54% 0% 100% 46% ;  */
+  border-radius: 75% 25% 75% 25% / 0% 25% 0% 32%;
+  border: 10px solid var(--color-logo);
+  border-left: 0;
+  border-right: 0;
+  height: 250px;
+  margin: 40px 0;
+}
+
+.bashky {
+  width: 100%;
+  border-radius: 75% 25% 75% 25% / 25% 25% 25% 25%;
+  border: 10px solid var(--color-logo);
+  border-left: 0;
+  border-right: 0;
+  height: 250px;
+  margin: 40px 0;
+}
