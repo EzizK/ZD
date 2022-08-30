@@ -569,7 +569,7 @@ font-size: 15px;
 # Sections
 --------------------------------------------------------------*/
 section {
-  padding: 40px 0;
+  padding: 10px 0;
   overflow: hidden;
 }
 
@@ -662,7 +662,7 @@ section {
 /* About Section
 --------------------------------*/
 #about {
-  padding: 60px 0 30px 0;
+  padding: 30px 0 10px 0;
 }
 
 #about .about-img {
@@ -701,13 +701,13 @@ section {
   }
 }
 
-
 #about .content h2 {
   color: var(--color-blue);
   font-weight: 700;
   font-size: 36px;
   font-family: "Raleway", sans-serif;
 }
+
 
 #about .content h3 {
   color: rgb(12, 46, 138);
@@ -719,7 +719,17 @@ section {
 }
 
 #about .content p {
-  line-height: 26px;
+  color: var(--color-blue);
+  font-family: var(--font);
+  font-size: 18px;
+  font-style: italic;
+  letter-spacing: 0.6px;
+  line-height: 1.5;
+  margin-top: 12px;
+}
+
+#about .content p::first-letter {
+  margin-left: 2.5rem;
 }
 
 #about .content p:last-child {
@@ -744,7 +754,7 @@ section {
 /* Services Section
 --------------------------------*/
 #services {
-  padding: 40px 0;
+  padding: 20px 0;
 }
 
 #services .box {
@@ -1773,3 +1783,4 @@ margin-left: 2rem;
   border-radius: 4px;
   box-shadow: 1px 4px 13px 0 var(--color-logo);
 }
+
