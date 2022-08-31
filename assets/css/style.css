@@ -569,7 +569,7 @@ font-size: 15px;
 # Sections
 --------------------------------------------------------------*/
 section {
-  padding: 10px 0;
+  padding: 60px 0;
   overflow: hidden;
 }
 
@@ -754,7 +754,7 @@ section {
 /* Services Section
 --------------------------------*/
 #services {
-  padding: 20px 0;
+  padding: 40px 0;
 }
 
 #services .box {
@@ -1614,9 +1614,9 @@ margin-left: 2rem;
   margin-left: 2rem;
   text-align: left;
   justify-content:flex-start;
-  color: rgba(17, 17, 17, 0.863);
+  color: var(--color-logo);
   align-self: auto;
-  font-weight: 550;
+  font-weight: 500;
   font-size: 22px;
   font-style: italic;
 }
@@ -1803,3 +1803,32 @@ margin-left: 2rem;
   height: 250px;
   margin: 40px 0;
 }
+
+
+.container2 {
+  width: 95%;
+  margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+.grid-5x1 {
+  display: grid;
+  grid-template-columns:18% 18% 18% 18% 18%;
+  column-gap: 2%;
+}
+
+.shapes {
+  width:100%;
+  height: 10rem;
+  background-color:tomato;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);}
+
+  .shape_text {
+    margin-left: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
