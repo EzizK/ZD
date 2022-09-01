@@ -1815,48 +1815,45 @@ margin-left: 2rem;
   
 .grid-5x1 {
   display: grid;
-  grid-template-columns:18% 18% 18% 18% 18%;
+  grid-template-columns: repeat(5, 18%);
   column-gap: 2%;
+  width: 100%;
+}
 
+@media (max-width: 1366px) {
+  .grid-5x1 {
+    grid-template-columns:30% 30% 30%;
+    column-gap: 3%;
+  }
+
+  .shapes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .dogovor {
+    font-size: 10px;
+  }
 
 }
 
-.vertical-grid {
-  display: grid;
-  grid-template-rows: 25% 30% 45%;
-  row-gap: 1rem;
-  width: 100%;
-}
-.work-icons {
-  display: flex;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-
+.dogovor {
+  font-size: 1.6rem;
 }
 
 .shapes {
   display: flex;
-  align-items: center;
   justify-content: center;
-  width:100%;
-  height: 100%;
-  background-color:tomato;
+  align-items: center;
+  color: blue;
+  height: 5rem;
+  width: 95%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  background-color:orange;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);}
 
-  .shape_text {
-    display: flex;
-    margin-left: 1.5rem;
-    font-size: 1.8rem;
-    font-weight: 600;
-  }
-
-  .work-chart-info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width:100%;
-    height: 100%;
-    background-color:lightgreen;
-
-  }
