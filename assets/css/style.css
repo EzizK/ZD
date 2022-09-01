@@ -1820,10 +1820,12 @@ margin-left: 2rem;
   width: 100%;
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 1600px) {
   .grid-5x1 {
-    grid-template-columns:30% 30% 30%;
+    grid-template-columns:repeat(3, 30%);
     column-gap: 3%;
+    justify-items: center;
+    
   }
 
   .shapes {
@@ -1845,6 +1847,8 @@ margin-left: 2rem;
   font-size: 1.6rem;
 }
 
+
+
 .shapes {
   display: flex;
   justify-content: center;
@@ -1854,6 +1858,18 @@ margin-left: 2rem;
   width: 95%;
   font-size: 1.5rem;
   font-weight: 500;
-  background-color:orange;
-  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);}
+  background-color:rgba(255, 166, 0, 0.795);
+  clip-path: polygon(95% 0%, 100% 50%, 95% 100%, 0% 100%, 5% 50%, 0% 0%);
+}
 
+.shapes:nth-child(even) {
+  background-color: rgba(0, 128, 0, 0.514);
+}
+
+.shapes:nth-child(3) {
+  background-color: rgba(255, 0, 0, 0.699);
+}
+
+.shapes:last-child {
+  background-color: rgba(165, 42, 42, 0.616);
+}
