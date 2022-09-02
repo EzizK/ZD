@@ -11,7 +11,7 @@
 
   <!-- Favicons -->
   <link href="images/logotype.png" rel="icon">
-  <link href="images/logotype.png rel="apple-touch-icon">
+  <link href="images/logotype.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
@@ -41,8 +41,8 @@
   <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:eziz282@gmail.com">eziz282@gmail.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><a href="tel:+99365162114">+993 65 162114</a></i>
+        <i class="bi bi-envelope d-flex align-items-center" style="color: blue;"><a href="mailto:zehinli.doganlar@mail.ru">zehinli.doganlar@mail.ru</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4" style="color: blue;"><a href="tel:+99365369298">+993 65 369298</a></i>
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
       </div>
@@ -56,24 +56,24 @@
       <div id="logo">
         <div><img class="logotype" src="images/logotype.png" alt=""></div>
         <div>
-          <h1><a href="index.html">Zehinli<span>Doganlar HJ</span></a></h1>
+          <h1><a href="index.html" class="logotip lang">"Zehinli Doganlar" <span>Hojalyk Jemgyýeti</span></a></h1>
         </div>
         <!-- Uncomment below if you prefer to use an image logo -->
       </div>
-
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto " href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="about.html">About Us</a></li>
-          <li><a class="nav-link scrollto active" href="services.html">Services</a></li>
-          <li><a class="nav-link scrollto " href="gallery.html">Gallery</a></li>
-          <li><a class="nav-link scrollto" href="gallery.html">Contact</a></li>
-          <li class="dropdown"><a href="#"><span>Language</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto lang" href="index.html" key="home">Главная</a></li>
+          <li><a class="nav-link scrollto lang" href="about.html" key="about">О нас</a></li>
+          <li><a class="nav-link scrollto active lang" href="services.html" key="services">Услуги</a></li>
+          <li><a class="nav-link scrollto lang" href="gallery.html" key="gallery">Галерея</a></li>
+          <li><a class="nav-link scrollto lang" href="contact.html" key="contact">Контакты</a></li>
+          <li class="dropdown">
+            <a href="#"><span key="active_lang" class="lang">EN</span><i class="bi bi-chevron-down langs"></i></a>
             <ul>
-              <li><a href="#">TM</a></li>
+              <li><a href="#" onclick="changeLang('tm');" class="lang">TM</a></li>
               </li>
-              <li><a href="#">RU</a></li>
-              <li><a href="#">EN</a></li>
+              <li><a href="#" onclick="changeLang('ru');" class="lang">RU</a></li>
+              <li><a href="#" onclick="changeLang('en');" class="lang">EN</a></li>
             </ul>
           </li>
         </ul>
@@ -81,19 +81,18 @@
       </nav><!-- .navbar -->
 
     </div>
-  </header><!-- End Header -->
+  </header><!-- End Header --> <!-- ======= hero Section ======= -->
+ 
 
     <!-- ======= Call To Action Section ======= -->
-    <section id="call-to-action">
+    <section id="service-page">
         <div class="container" data-aos="zoom-out">
           <div class="row">
-            <div class="col-lg-12 text-center text-lg-start">
+            <div class="col-12 text-center text-lg-start">
               <h3 class="cta-title">«Зехинли доганлар» - надежный представитель
                 в сфере охранных услуг
                 </h3>
               <p class="cta-text"> Конкурентным преимуществом нашей компании являться широкий спектр услуг, включая услуги как физической, так и пультовой охраны. В связи с этим компания предоставляет следующие виды охранных услуг:
-<br>
-<br>
                 <br>1.	Невооруженная охрана дневная
                 <br>2.   Невооруженная охрана ночная
                 <br>3.	Охрана вахтовым методом
