@@ -1914,3 +1914,31 @@ position: relative;
   padding-left: 0;
   margin-left: 0;
 }
+
+/* #abzas .pismo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+ol .pismo {
+  display: flex;
+  width: 220px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
+ol img {
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
