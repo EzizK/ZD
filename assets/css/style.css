@@ -1924,7 +1924,7 @@ position: relative;
   margin-right: auto;
 } */
 
-ol .pismo {
+/* ol .pismo {
   display: flex;
   width: 220px;
   height: 300px;
@@ -1940,5 +1940,43 @@ ol img {
   margin-left: auto;
   margin-right: auto;
 
+} */
+
+.metjit {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  width: 100vw;
 }
 
+.balykcylyk {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  width: 100vw;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.kletka {
+  border: grey solid 1px;
+}
