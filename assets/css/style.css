@@ -1967,8 +1967,8 @@ ol img {
 .aciklama {
   display: block;
   padding-top: 0.8rem;
-  color: var(--color-primary);
-
+  color: var(--color-blue);
+  text-transform: uppercase;
 }
 
 .column {
