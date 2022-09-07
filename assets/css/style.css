@@ -2003,6 +2003,8 @@ ol img {
   border: 1px solid rgba(128, 128, 128, 0.493);
 }
 
-table {
-  display: table;
+table, td {
+  border: solid 1px grey;
+  border-collapse: collapse;
+
 }
