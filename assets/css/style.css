@@ -539,8 +539,8 @@ h6 {
 
 #hero .hero-slider::before {
   content: "";
-  background-color: var(--color-secondary);
-  opacity: 0.5;
+  /* background-color: var(--color-secondary); */
+  /* opacity: 0.5; */
   position: absolute;
   height: 100%;
   width: 100%;
@@ -1693,7 +1693,7 @@ position: relative;
 }
 
 .section-header h2 {
-  font-style: normal;
+  font-style: oblique;
 }
 
 .works {
@@ -1987,7 +1987,7 @@ ol img {
 }
 
 .kletka {
-  border: grey solid 1px;
+  /* border: grey solid 1px; */
 }
 
 /* .sunshine {
@@ -2006,3 +2006,13 @@ ol img {
   opacity: 1;
   width: 41.66667%;
 } */
+
+/* div {
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+} */
+
+.sonra {
+  opacity: 0.1;
+}
