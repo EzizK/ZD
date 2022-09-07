@@ -1867,7 +1867,7 @@ position: relative;
   text-align: center;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1030px) {
   .work-chart-text {
     /* font-size: larger; */
     display: none;
@@ -2015,4 +2015,9 @@ ol img {
 
 .sonra {
   opacity: 0.1;
+}
+
+.hyundai {
+  opacity: 0.9;
+  border: 1px solid rgba(128, 128, 128, 0.493);
 }
