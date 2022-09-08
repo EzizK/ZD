@@ -2019,3 +2019,7 @@ th[scope=row] {
   color: var(--color-blue);
   text-align: end;
 }
+
+.container-fluid {
+  border: 1px greenyellow solid;
+}
