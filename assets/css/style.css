@@ -2006,5 +2006,17 @@ ol img {
 table, td {
   border: solid 1px grey;
   border-collapse: collapse;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: var(--color-blue);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5rem;
+}
 
+th {
+  border: solid 1px grey;
+  font-size: larger;
+  font-weight: bolder;
+  padding: 0.8rem;
 }
