@@ -1998,11 +1998,6 @@ ol img {
   opacity: 0.1;
 }
 
-.hyundai {
-  opacity: 0.9;
-  border: 1px solid rgba(128, 128, 128, 0.493);
-}
-
 table, td {
   color: var(--color-blue);
   margin-top: 2rem;
@@ -2021,5 +2016,45 @@ th[scope=row] {
 }
 
 .container-fluid {
-  border: 1px greenyellow solid;
+  /* border: 1px greenyellow solid; */
+  margin-top: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  gap: 20px;
+}
+
+.setir {
+  display: flex;
+  flex-direction: column;
+  width: 33.3%;
+
+  gap: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: var(--border-radius-button);
+  /* max-height: 700px; */
+  transition: all 0.5s ease-in-out;
+}
+
+.gallery img:hover {
+  scale: 1.02;
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    flex-direction: column;
+  }
+
+  .setir {
+    width: 100%;
+  }
 }
