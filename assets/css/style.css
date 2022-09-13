@@ -722,7 +722,7 @@ section {
 }
 
 .back-img {
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 @media (max-width: 1457px) and (min-width: 992px) {
@@ -1178,6 +1178,13 @@ section {
   letter-spacing: 1.1px;
 }
 
+@media screen and (max-width:770px) {
+  #call-to-action .cta-title {
+    font-size: 22px;
+  }
+  
+}
+
 #call-to-action .cta-text {
   color: #fff;
   font-size: 26px;
@@ -1527,11 +1534,15 @@ position: relative;
   margin-right: auto;
   top: 0px;
   z-index: 1;
-  opacity: 0.1;
+  opacity: 0.8;
 }
 
 .flip-box-front h2 {
-  color: black;
+  color: darkblue;
+  display: flex;
+  font-weight: bolder;
+  position: absolute;
+  top: 3rem;
   z-index: 9;
 }
 
@@ -1831,8 +1842,26 @@ position: relative;
   border: 10px solid var(--color-logo); /* border 5px 3px edibermeli barlap gormek ucin*/ 
   border-left: 0;
   border-right: 0;
-  height: 250px;
+  max-height: 270px;
   margin: 40px 0;
+}
+
+.bashky2 {
+  height: 200px;
+}
+
+/* FIXME: CALL TO ACTION MEDIA QUERY */
+@media screen and (min-width: 770px) and (max-width: 1200px) { 
+#call-to-action .cta-title {
+  font-size: 24px;
+}
+
+.bashky {
+  height: 220px;
+}
+  .bashky2 {
+    height: 180px;
+  }
 }
 
 /* TODO:*/
