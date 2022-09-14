@@ -722,15 +722,16 @@ section {
 }
 
 .back-img {
-  opacity: 0.3;
+  opacity: 1;
+}
+
+.main-img {
+  width: 80%;
 }
 
 @media (max-width: 1457px) and (min-width: 992px) {
   .main-img {
-
     width: 85%;
-
-
   }
 }
 
