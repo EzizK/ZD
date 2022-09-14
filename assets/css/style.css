@@ -2217,3 +2217,9 @@ th[scope=row] {
     transform: translate(85px, 0%);
   }
 }
+
+.olimp {
+padding-right: 0px;
+padding-left: 0px;
+  height: 17rem;
+}
