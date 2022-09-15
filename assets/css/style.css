@@ -2258,3 +2258,11 @@ margin-right: 40px;
   margin-top: 1rem;
 }
 
+
+
+
+#about ol li span {
+  font-size: larger;
+  font-weight: bolder;
+  text-decoration: underline;
+}
