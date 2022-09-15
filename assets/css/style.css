@@ -2256,13 +2256,16 @@ margin-right: 40px;
   font-style: italic;
   color: var(--color-blue);
   margin-top: 1rem;
+  }
+
+#about ol li::marker {
+  font-size: larger;
+  font-weight: bolder;
+
 }
-
-
-
 
 #about ol li span {
   font-size: larger;
   font-weight: bolder;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }

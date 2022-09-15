@@ -1,50 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Zehinli Doganlar Hojalyk Jemgyýeti</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="images/logotype.png" rel="icon">
+  <link href="images/logotype.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Reveal - v4.8.0
+  * Template URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
+
 <body>
-         <div class="feedback">
-            <div class="container">
-              <div class="form">
-                <form method="post" action="subscriberform.php">
-                  <div class="row">
-                    <div class="form-group col-md-6">
-                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group col-md-6 mt-3 mt-md-0">
-                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                    </div>
-                  </div>
-                  <div class="form-group mt-3">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                  </div>
-                  <div class="form-group mt-3">
-                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                  </div>
-                  <div class="my-3">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                  </div>
-                  <div class="text-center"><button type="submit">Send Message</button></div>
-                </form>
-              </div>
-            </div>
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center" style="color: blue;"><a href="mailto:zehinli.doganlar@mail.ru">zehinli.doganlar@mail.ru</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4" style="color: blue;"><a href="tel:+99365369298">+993 65 369298</a></i>
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+      </div>
+    </div>
+  </section><!-- End Top Bar-->
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-between">
+
+      <div id="logo">
+        <div><img class="logotype" src="images/logotype.png" alt=""></div>
+        <div>
+          <h1><a href="index.html" class="logotip lang">"Zehinli Doganlar" <span>Hojalyk Jemgyýeti</span></a></h1>
+        </div>
+        <!-- Uncomment below if you prefer to use an image logo -->
+      </div>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto lang" href="index.html" key="home">Главная</a></li>
+          <li><a class="nav-link scrollto lang" href="about.html" key="about">О нас</a></li>
+          <li><a class="nav-link scrollto lang" href="services.html" key="services">Услуги</a></li>
+          <li><a class="nav-link scrollto lang" href="gallery.html" key="gallery">Галерея</a></li>
+          <li><a class="nav-link scrollto active lang" href="contact.html" key="contact">Контакты</a></li>
+          <li class="dropdown">
+            <a href="#"><span key="active_lang" class="lang">EN</span><i class="bi bi-chevron-down langs"></i></a>
+            <ul>
+              <li><a href="#" onclick="changeLang('tm');" class="lang">TM</a></li>
+              </li>
+              <li><a href="#" onclick="changeLang('ru');" class="lang">RU</a></li>
+              <li><a href="#" onclick="changeLang('en');" class="lang">EN</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+    <!-- ======= Contact Section ======= -->
+
+    <section id="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Связаться с нами</h2>
         </div>
 
+        <div class="row contact-info">
 
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="bi bi-envelope" style="color:black; opacity: 0.8;"></i>
+              <h3 class="lang" key="email">Email</h3>
+              <p><a href="mailto:zehinli.doganlar@mail.ru">zehinli.doganlar@mail.ru</a></p>
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="bi bi-phone" style="color: black; opacity: 0.8;"></i>
+              <h3 class="lang" key="phone_number">Номер телефона</h3>
+              <p><a href="tel:+99365369298">+99365369298</a></p>
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="fa fa-fax" style="color: black; margin-top: 10px;margin-bottom: 24px; opacity: 0.8; font-size: 48px;"></i>
+              <h3 class="lang" key="phone_number">факс</h3>
+              <p><a href="tel:+99324325098">+99324325098</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row contact-info">
+          <div class="col-md-6">
+            <div class="contact-address">
+              <i class="bi bi-geo-alt" style="color: black; opacity: 0.8;"></i>
+              <h3 class="lang" key="adres1">юридический Адрес</h3>
+              <address class="lang" key="adres2">Туркменистан, Балкан велаят, г.Гумдаг, <br> комплекса жилых домов 15, Дом 88.</address>
+            </div>
+          </div>      
+          <div class="col-md-6">
+            <div class="contact-address">
+              <i class="bi bi-geo-alt-fill" style="color: black; opacity: 0.8;"></i>
+              <h3 class="lang" key="adres1">фактический адрес</h3>
+              <address class="lang" key="adres2">Туркменистан, Балкан велаят, г.Туркменбаши, <br> торговый центр «Шагадам», кабинет №: 31</address>
+            </div>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1864.5163118837922!2d52.99090282076264!3d39.99831365970386!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf2b867eb77205430!2z0KLQvtGA0LPQvtCy0YvQuSDRhtC10L3RgtGAICLQqNCQ0JPQkNCU0JDQnCI!5e1!3m2!1sen!2sus!4v1663226696131!5m2!1sen!2sus" width="600" height="450" style="border: 4px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+      </div>
+
+      <div class="container">
+
+      <div class="karobka" data-aos="fade-right">
+        <div class="container">
+          <div class="form">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group col-md-6 mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Zehinli Doganlar HJ</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://trade.com.tm">TM TRADE</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -52,7 +191,10 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
-  
-        <script src="assets/js/main.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/db.js"></script>
 </body>
 </html>
