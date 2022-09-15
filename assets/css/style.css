@@ -2226,13 +2226,35 @@ th[scope=row] {
   }
 }
 
-.olimp {
-padding-right: 0px;
-padding-left: 0px;
-height: 17rem;
-/* width: 100%; */
-}
-
 .duzetmeli {
   background-color: red;
 }
+
+.flyer {
+margin-right: -80px;
+}
+
+.flyer_near {
+margin-right: 80px;  
+}
+
+@media screen and (max-width:1200px) {
+  
+.flyer {
+margin-right: -40px;
+}
+
+.flyer_near {
+margin-right: 40px;  
+}
+}
+
+#about ol li {
+  line-height: 1.5;
+  font-size: 18px;
+  font-family: var(--font);
+  font-style: italic;
+  color: var(--color-blue);
+  margin-top: 1rem;
+}
+
