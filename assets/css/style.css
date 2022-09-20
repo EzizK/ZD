@@ -2101,17 +2101,54 @@ th[scope=row] {
   gap: 20px;
 }
 
-.gallery img {
-  width: 100%;
-  border-radius: var(--border-radius-button);
-  /* max-height: 700px; */
-  transition: all 0.5s ease-in-out;
-  max-height:700px;
+.gallery__card {
+  width: auto;
+  height: 600px;
+  position: relative;
+  /* transition: all 0.5s ease-in-out; */
 }
 
-.gallery img:hover {
-  scale: 1.02;
+.gallery__text {
+  width: 24rem;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  opacity: 0;
+  border-radius: var(--border-radius-button);
+  outline: 1px red solid;
+  outline-offset: -0.2rem;
+  height: fit-content;
+  margin: 0.5rem;
+  padding: 0.2rem;
+  font-size: 30px;
+  font-weight: bold;
+  z-index: 2;
+  transition: all 1s ease-in-out;
 }
+
+.gallery__card img {
+  width: 100%;
+  height: 600px;
+  z-index: 1;
+  border-radius: var(--border-radius-button);
+  transition: all 0.5s ease-in-out;
+  /* filter: grayscale(100%);
+  -webkit-filter: grayscale(100%); */
+}
+
+.gallery__card:hover img {
+  scale: 1.02;
+  filter: grayscale(60%);
+  -webkit-filter: grayscale(60%);
+  /* filter: none;
+  -webkit-filter:none; */
+}
+
+.gallery__card:hover .gallery__text {
+  opacity: 1;
+}
+
 
 @media (max-width: 768px) {
   .gallery {
@@ -2246,17 +2283,34 @@ margin-right: 80px;
   margin-right: 25px;  
   }
 
+
   /* FIXME: duzetmeli height bilen marginlerini */
   @media screen and (max-width:992px) {
     .flyer2 {
-      margin-right: 0;
+      margin-right: -20px;
+      height: 150px;
       }
       
       .flyer_near2 {
-      margin-right: 0;  
+      margin-right: 20px;  
       }
 
   }
+
+    /* FIXME: duzetmeli height bilen marginlerini */
+    @media screen and (max-width:767px) {
+      .flyer2 {
+        margin-right: -20px;
+        height: 100px;
+        }
+        
+        .flyer_near2 {
+        margin-right: 20px;  
+        }
+  
+    }
+
+
 
 
 .flyer3 {
@@ -2309,3 +2363,4 @@ margin-right: 40px;
   font-weight: bolder;
   /* text-decoration: underline; */
 }
+
