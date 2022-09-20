@@ -2238,6 +2238,36 @@ margin-right: -80px;
 margin-right: 80px;  
 }
 
+.flyer2 {
+  margin-right: -25px;
+  }
+  
+  .flyer_near2 {
+  margin-right: 25px;  
+  }
+
+  /* FIXME: duzetmeli height bilen marginlerini */
+  @media screen and (max-width:992px) {
+    .flyer2 {
+      margin-right: 0;
+      }
+      
+      .flyer_near2 {
+      margin-right: 0;  
+      }
+
+  }
+
+
+.flyer3 {
+  margin-right: -30px;
+  }
+  
+  .flyer_near3 {
+  margin-right: 30px;  
+  }
+
+
 @media screen and (max-width:1200px) {
   
 .flyer {
@@ -2247,6 +2277,16 @@ margin-right: -40px;
 .flyer_near {
 margin-right: 40px;  
 }
+
+.flyer3 {
+  margin-right: -30px;
+  }
+  
+  .flyer_near3 {
+  margin-right: 30px;  
+  }
+
+
 }
 
 #about ol li {
