@@ -2112,7 +2112,7 @@ th[scope=row] {
   width: 24rem;
   background-color: white;
   position: absolute;
-  top: 70%;
+  top: 1%;
   left: 20%;
   opacity: 0;
   border-radius: var(--border-radius-button);
@@ -2120,7 +2120,7 @@ th[scope=row] {
   outline-offset: -0.2rem;
   text-align: center;
   height: fit-content;
-  margin: 0.5rem;
+  margin: 0.2rem;
   padding: 0.2rem;
   font-size: 30px;
   font-weight: bold;
@@ -2365,3 +2365,6 @@ margin-right: 40px;
   /* text-decoration: underline; */
 }
 
+.ramkaly {
+  border: gray solid 0.1px;
+}
