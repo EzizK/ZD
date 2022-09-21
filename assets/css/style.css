@@ -2112,12 +2112,13 @@ th[scope=row] {
   width: 24rem;
   background-color: white;
   position: absolute;
-  top: 50%;
-  left: 25%;
+  top: 70%;
+  left: 20%;
   opacity: 0;
   border-radius: var(--border-radius-button);
-  outline: 1px red solid;
+  outline: 1px var(--color-blue) solid;
   outline-offset: -0.2rem;
+  text-align: center;
   height: fit-content;
   margin: 0.5rem;
   padding: 0.2rem;
@@ -2162,7 +2163,7 @@ th[scope=row] {
 
 .ramka {
   width:100%;
-  border: 0.5px dotted rgba(128, 128, 128, 0.603); 
+  /* border: 0.5px dotted rgba(128, 128, 128, 0.603);  */
 }
 
 
