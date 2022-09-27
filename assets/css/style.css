@@ -710,7 +710,8 @@ section {
   align-items: center;
 }
 
-#about .about-img img {
+#about .about-img img
+{
   position: absolute;
   display: flex;
   max-width: 100%;
@@ -719,14 +720,29 @@ section {
   align-self: center;
   margin: 5px;
   padding: 10px;
+  transition: opacity ease 1s;
 }
 
+/* FIXME: biri pozulmaly sonra */
+.back-img-1 {
+  opacity: .8;
+}
+
+/* FIXME: biri pozulmaly sonra */
 .back-img {
   opacity: 1;
 }
 
+.middle-img {
+  opacity: .3;
+}
+
 .main-img {
   width: 80%;
+}
+
+#about .about-img:hover .middle-img {
+  opacity:0.7;
 }
 
 @media (max-width: 1457px) and (min-width: 992px) {
@@ -2265,7 +2281,8 @@ th[scope=row] {
 }
 
 .duzetmeli {
-  background-color: red;
+  /* background-color: red; */
+  border: 2px red solid;
 }
 
 .flyer {
@@ -2283,10 +2300,17 @@ margin-right: 80px;
   .flyer_near2 {
   margin-right: 25px;  
   }
-
+  
+  .flyer4 {
+    margin-right: -22px;
+    }
+    
+    .flyer_near4 {
+    margin-right: 22px;  
+    }
 
   /* FIXME: duzetmeli height bilen marginlerini */
-  @media screen and (max-width:992px) {
+  @media screen and (max-width:991px) {
     .flyer2 {
       margin-right: -20px;
       height: 150px;
@@ -2296,6 +2320,9 @@ margin-right: 80px;
       margin-right: 20px;  
       }
 
+      .flyer4 {
+        height: 132px;
+      }
   }
 
     /* FIXME: duzetmeli height bilen marginlerini */
@@ -2307,6 +2334,10 @@ margin-right: 80px;
         
         .flyer_near2 {
         margin-right: 20px;  
+        }
+
+        .flyer4 {
+          height: 90.75px;
         }
   
     }
@@ -2368,3 +2399,4 @@ margin-right: 40px;
 .ramkaly {
   border: gray solid 0.1px;
 }
+
