@@ -2115,13 +2115,13 @@ th[scope=row] {
 .gallery__card {
   --card-height: 30rem;
   position: relative;
-  width:auto;git 
+  width:auto;
 }
 
 .gallery__text {
   background-color: white;
   border-radius: var(--border-radius-button);
-  font-size:18px;
+  font-size: 18px;
   font-weight: bold;
   height:fit-content;
   left: 20%;
