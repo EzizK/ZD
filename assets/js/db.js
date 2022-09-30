@@ -255,6 +255,9 @@ var arrLang = {
       'turkmen' : 'Turkmen',
       'english' : 'English',
       'active_lang': 'English',
+      'bitewilik1' : 'Our slogan:',
+      'bitweilik2' : '«integrity & safety»',
+      'aboutus_title' : 'About us',
 
     }
   };
