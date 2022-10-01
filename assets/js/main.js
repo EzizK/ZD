@@ -330,39 +330,4 @@ function changeLang(lang){
       }); 
       // document.getElementById("activelang").innerHTML = lang;
 
-
-      let loc = window.location.pathname;
-      var blackLogo = document.getElementById ("blacklogo");
-      var whiteLogo = document.getElementById ("whitelogo");
-      var aboutViewMore = document.getElementById ("aboutviewmorebtn");
-      var formName = document.getElementById('formname');
-      var formNumber = document.getElementById('formnumber');
-      var formMessage = document.getElementById('formmessage');
-      if (loc == '/' || loc == '/index.html' || loc == '/emirussa/'){
-        if (lang == 'ru'){
-            formName.placeholder = 'Имя *';
-            formNumber.placeholder = 'Телефон номер *';
-            formMessage.placeholder = 'Сообщение *';
-            blackLogo.setAttribute('src', 'img/logotextblack.png');
-            whiteLogo.setAttribute('src', 'img/logotextwhite.png');
-            aboutViewMore.setAttribute('href', 'documents/docru.pdf')
-        }
-          if (lang == 'tm'){
-              formName.placeholder = 'At *';
-              formNumber.placeholder = 'Telefon nomer *';
-              formMessage.placeholder = 'Hat *';
-              blackLogo.setAttribute('src', 'img/logotextblacktm.png');
-              whiteLogo.setAttribute('src', 'img/logotextwhitetm.png');
-              aboutViewMore.setAttribute('href', 'documents/doctm.pdf')
-              console.log(loc)
-          }
-          if (lang == 'en'){
-              formName.placeholder = 'Name *';
-              formNumber.placeholder = 'Phone Number *';
-              formMessage.placeholder = 'Message *';
-              blackLogo.setAttribute('src', 'img/logotextblacken.png');
-              whiteLogo.setAttribute('src', 'img/logotextwhiteen.png');
-              aboutViewMore.setAttribute('href', 'documents/docen.pdf')
-          }
-      }
 }
