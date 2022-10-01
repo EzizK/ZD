@@ -245,19 +245,19 @@ var arrLang = {
 
 
 
-    'en': {
-      'home' : 'Home',
-      'about' : 'About',
-      'services' : 'Services',
-      'gallery' : 'Gallery',
-      'contact' : 'Contact',
-      'russian' : 'Russian',
-      'turkmen' : 'Turkmen',
-      'english' : 'English',
-      'active_lang': 'English',
-      'bitewilik1' : 'Our slogan:',
-      'bitweilik2' : '«integrity & safety»',
-      'aboutus_title' : 'About us',
+    // 'en': {
+    //   'home' : 'Home',
+    //   'about' : 'About',
+    //   'services' : 'Services',
+    //   'gallery' : 'Gallery',
+    //   'contact' : 'Contact',
+    //   'russian' : 'Russian',
+    //   'turkmen' : 'Turkmen',
+    //   'english' : 'English',
+    //   'active_lang': 'English',
+    //   'bitewilik1' : 'Our slogan:',
+    //   'bitweilik2' : '«integrity & safety»',
+    //   'aboutus_title' : 'About us',
 
-    }
+    // }
   };
