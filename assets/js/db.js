@@ -257,7 +257,7 @@ var arrLang = {
     //   'active_lang': 'English',
     //   'bitewilik1' : 'Our slogan:',
     //   'bitweilik2' : '«integrity & safety»',
-    //   'aboutus_title' : 'About us',
+    // 'aboutus_title' : 'About l\'us',
 
     // }
   };
