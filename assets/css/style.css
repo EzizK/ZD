@@ -2172,7 +2172,7 @@ th[scope=row] {
   height:fit-content;
   left: 5rem;
   margin: 0.2rem;
-  opacity: 0;
+  /* opacity: 0; */
   outline-offset: -0.2rem;
   outline: 1px var(--color-blue) solid;
   padding:0.2rem;
@@ -2181,7 +2181,6 @@ th[scope=row] {
   top: 1%;
   transition: all 0.5s ease-in-out;
   width: 15rem;
-  width: 24rem;
   z-index: 2;
 }
 
