@@ -2133,6 +2133,7 @@ th[scope=row] {
 
 .gallery__hrz {
   height: auto;
+  position: relative;
   width: 100%;
   gap: var(--gallery-gap);
 }
@@ -2170,9 +2171,9 @@ th[scope=row] {
   font-size: 18px;
   font-weight: bold;
   height:fit-content;
-  left: 5rem;
+  left: 25%;
   margin: 0.2rem;
-  /* opacity: 0; */
+  opacity: 0;
   outline-offset: -0.2rem;
   outline: 1px var(--color-blue) solid;
   padding:0.2rem;
@@ -2180,7 +2181,7 @@ th[scope=row] {
   text-align: center;
   top: 1%;
   transition: all 0.5s ease-in-out;
-  width: 15rem;
+  width: 50%;
   z-index: 2;
 }
 
