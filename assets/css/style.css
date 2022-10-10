@@ -2165,13 +2165,21 @@ th[scope=row] {
   -webkit-filter:none; */
 }
 
+.gallery__hrz:hover img {
+  scale: 1.02;
+  filter: grayscale(60%);
+  -webkit-filter: grayscale(60%);
+  /* filter: none;
+  -webkit-filter:none; */
+}
+
 .gallery__text {
   background-color: white;
   border-radius: var(--border-radius-button);
   font-size: 18px;
   font-weight: bold;
   height:fit-content;
-  left: 25%;
+  left: 15%;
   margin: 0.2rem;
   opacity: 0;
   outline-offset: -0.2rem;
@@ -2181,11 +2189,15 @@ th[scope=row] {
   text-align: center;
   top: 1%;
   transition: all 0.5s ease-in-out;
-  width: 50%;
+  width: 70%;
   z-index: 2;
 }
 
 .gallery__card:hover .gallery__text {
+  opacity: 1;
+}
+
+.gallery__hrz:hover .gallery__text {
   opacity: 1;
 }
 
