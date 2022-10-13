@@ -512,9 +512,12 @@ h6 {
 #hero .slogan h2 {
   font-size: 5rem;
 }
-#hero .slogan h2 span {
+#hero .slogan h2:nth-child(2) {
   /* font-size: larger; */
   font-weight: 700;
+  /* color: red; */
+  position: absolute;
+  top: 20%;
 }
 
 @media screen and (max-width:1630px) {
@@ -524,9 +527,13 @@ h6 {
   
 }
 
-@media screen and (max-width:630px) {
+@media screen and (max-width:869px) {
   #hero .slogan h2 {
     font-size: 3rem;
+  }
+
+  #hero .slogan h2:nth-child(2) {
+  top:30%
   }
   
 }

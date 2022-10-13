@@ -8,9 +8,9 @@ var arrLang = {
       'russian' : 'Русский',
       'turkmen' : 'Туркменский',
       'english' : 'Английский',
-      'active_lang': 'Русский',
+      'active_lang': 'Язык',
       'bitewilik1' : 'Наш девиз:',
-      'bitweilik2' : '«целостность & сохранность»',
+      'bitewilik2' : '«целостность & сохранность»',
       'aboutus_title' : 'О нас',
       'about_shortly' : 'Основной деятельностью хозяйственного общество является предоставления охранных услуг, специализирующейся на услугах по физической и пультовой  охране объектов, и их периметра. В перечень услуг компании входят  невооруженная охрана объектов и имущества, обеспечение внутри объектного и пропускного режима на объектах, монтаж и техническое обслуживание охранной и тревожной сигнализации. Компания предоставляет охранные услуги как частным лицам, так и мелким и крупным предприятиям, а так же иностранным компаниям, работающим на территории Туркменистана.',
       'learn_more' : 'Узнать больше',
@@ -55,7 +55,7 @@ var arrLang = {
       'phone_number' : 'Номер телефона',
       'faxno' : 'факс',
       'adres1' : 'юридический Адрес',
-      'adres1desc' : 'POSTAL CODE????, Туркменистан, Балкан велаят, г.Гумдаг, <br> комплекса жилых домов 15, Дом 88.',
+      'adres1desc' : '745110,, Туркменистан, Балкан велаят, г.Гумдаг, <br> комплекса жилых домов 15, Дом 88.',
       'adres2' : 'фактический адрес',
       'adres2desc' : '745000, Туркменистан, Балкан велаят, г.Туркменбаши, <br> торговый центр «Шагадам», кабинет №: 31',
 
@@ -130,13 +130,13 @@ var arrLang = {
       'russian' : 'Rusça',
       'turkmen' : 'Türkmençe',
       'english' : 'Iňlisçe',
-      'active_lang' : 'Türkmençe',
+      'active_lang' : 'Dili',
       'bitewilik1' : 'Biziň şygarymyz:',
-      'bitweilik2' : '«bitewilik & abatlyk»',
+      'bitewilik2' : '«bitewilik & abatlyk»',
       'aboutus_title' : 'Biz barada',
       'about_shortly' : 'Hojalyk jemgyýetiniň esasy işi stasionar desgalary (obýektleri) we olaryň töweregini (perimetrini) ýaragsyz fiziki we wideogözegçilik usullary arkaly ýöriteleşdirilen gorag hyzmatlary bilen üpjin etmeklikdir.  Hojalyk jemgyýetiniň hyzmatlarynyň sanawyna obýektleriň we emlägiň ýaragsyz goragy, obýektleriň içindäki üpjünçilik, obýektlere giriş gözegçiligi, howpsuzlyk hem-de duýduryş ulgamlaryny gurnamak, şeýle-de olara tehniki hyzmatlar etmeklik girýär. Hojalyk jemgyýeti  şahsyýetlere, kiçi we iri kärhanalara, şeýle hem Türkmenistanyň çäginde işleýän daşary ýurt kompaniýalaryna gorag hyzmatlaryny hödürleýär.',
       'learn_more' : 'Giňişleýin öwrenmek üçin',
-      'section1p' : '«Зехинли доганлар» - надежный представитель в сфере охранных услуг',
+      'section1p' : '“Zehinli doganlar” - gorag hyzmatlary babatynda ygtybarly wekil',
       'kartocka1_f' : 'Ýaragsyz gije-gündiz gorag',
       'kartocka2_f' : 'Çalşyk esasynda gorag',
       'kartocka3_f' : 'Obýektiň içindäki gorag we giriş-çykyş nokadynyň gözegçiligini üpjün etmek.',
@@ -177,7 +177,7 @@ var arrLang = {
       'phone_number' : 'Telefon belgimiz',
       'faxno' : 'Faks',
       'adres1' : 'Ýuridiki salgymyz',
-      'adres1desc' : 'POSTAL CODE????, Türkmenistan, Balkan welaýatynyň Gumdag şäheriniň 15-nji ýaşaýyş jaýlar toplumynyň 88-njy jaýy.',
+      'adres1desc' : '745110, Türkmenistan, Balkan welaýatynyň Gumdag şäheriniň 15-nji ýaşaýyş jaýlar toplumynyň 88-njy jaýy.',
       'adres2' : 'Hakyky salgymyz',
       'adres2desc' : '745000, Türkmenistan, Balkan welaýatynyň Türkmenbaşy şäheriniň Balkan köçesiniň 10-njy jaýy “Şagadam” söwda merkeziniň 31-nji otagy',
 
@@ -245,19 +245,19 @@ var arrLang = {
 
 
 
-    // 'en': {
-    //   'home' : 'Home',
-    //   'about' : 'About',
-    //   'services' : 'Services',
-    //   'gallery' : 'Gallery',
-    //   'contact' : 'Contact',
-    //   'russian' : 'Russian',
-    //   'turkmen' : 'Turkmen',
-    //   'english' : 'English',
-    //   'active_lang': 'English',
-    //   'bitewilik1' : 'Our slogan:',
-    //   'bitweilik2' : '«integrity & safety»',
-    // 'aboutus_title' : 'About l\'us',
+    'en': {
+      'home' : 'Home',
+      'about' : 'About',
+      'services' : 'Services',
+      'gallery' : 'Gallery',
+      'contact' : 'Contact',
+      'russian' : 'Russian',
+      'turkmen' : 'Turkmen',
+      'english' : 'English',
+      'active_lang': 'Language',
+      'bitewilik1' : 'Our slogan:',
+      'bitewilik2' : '«integrity & safety»',
+    'aboutus_title' : 'About us',
 
-    // }
+    }
   };
