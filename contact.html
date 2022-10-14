@@ -69,12 +69,12 @@
           <li><a class="nav-link scrollto lang" href="gallery.html" key="gallery">Галерея</a></li>
           <li><a class="nav-link scrollto active lang" href="contact.html" key="contact">Контакты</a></li>
           <li class="dropdown">
-            <a href="#"><span key="active_lang" class="lang">EN</span><i class="bi bi-chevron-down langs"></i></a>
+            <a href="#"><span key="active_lang" class="lang">Язык</span><i class="bi bi-chevron-down langs"></i></a>
             <ul>
-              <li><a href="#" onclick="changeLang('tm');" class="lang">TM</a></li>
-              </li>
-              <li><a href="#" onclick="changeLang('ru');" class="lang">RU</a></li>
-              <li><a href="#" onclick="changeLang('en');" class="lang">EN</a></li>
+            </li>
+              <li><a href="#tm" id="tm" onclick="changeLang('tm');" key="tm" class="translate"> <img class="flags" src="images/flags/flag_Turkmenistan.webp" alt="Turkmenistan flag"></a></li>
+              <li><a href="#ru" id="ru" onclick="changeLang('ru');" key="ru" class="translate"> <img class="flags" src="images/flags/flag_russian.png" alt="Russian flag"></a></li>
+              <li><a href="#en" id="en" onclick="changeLang('en');" key="en" class="translate"> <img class="flags" src="images/flags/flag_english.webp" alt="English flag"></a></li>
             </ul>
           </li>
         </ul>
@@ -89,7 +89,7 @@
     <section id="contact">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h2>Связаться с нами</h2>
+          <h2 class="lang" key="contact_us">Связаться с нами</h2>
         </div>
 
         <div class="row contact-info">
@@ -97,8 +97,9 @@
           <div class="col-md-4">
             <div class="contact-email">
               <i class="bi bi-envelope" style="color:black; opacity: 0.8;"></i>
-              <h3 class="lang" key="email">Email</h3>
+              <h3>Email</h3>
               <p><a href="mailto:zehinli.doganlar@mail.ru">zehinli.doganlar@mail.ru</a></p>
+              <p><a href="mailto:zehinli.doganlar@mail.ru">zehinli.doganlar@sanly.tm</a></p>
             </div>
           </div>
           
@@ -112,8 +113,8 @@
           
           <div class="col-md-4">
             <div class="contact-address">
-              <i class="fa fa-fax" style="color: black; margin-top: 10px;margin-bottom: 24px; opacity: 0.8; font-size: 48px;"></i>
-              <h3 class="lang" key="phone_number">факс</h3>
+              <i class="fa fa-fax mt-md-2" style="color: black; opacity: 0.8; font-size: 48px;"></i>
+              <h3 class="lang mt-md-2" key="faxno">факс</h3>
               <p><a href="tel:+99324325098">+99324325098</a></p>
             </div>
           </div>
@@ -124,14 +125,14 @@
             <div class="contact-address">
               <i class="bi bi-geo-alt" style="color: black; opacity: 0.8;"></i>
               <h3 class="lang" key="adres1">юридический Адрес</h3>
-              <address class="lang" key="adres2">745110, Туркменистан, Балкан велаят, г.Гумдаг, <br> комплекса жилых домов 15, Дом 88.</address>
+              <address class="lang adresler" key="adres1desc">745110, Туркменистан, Балкан велаят, г.Гумдаг, комплекса жилых домов 15, Дом 88.</address>
             </div>
           </div>      
           <div class="col-md-6">
             <div class="contact-address">
               <i class="bi bi-geo-alt-fill" style="color: black; opacity: 0.8;"></i>
-              <h3 class="lang" key="adres1">фактический адрес</h3>
-              <address class="lang" key="adres2">745000, Туркменистан, Балкан велаят, г.Туркменбаши, <br> торговый центр «Шагадам», кабинет №: 31</address>
+              <h3 class="lang" key="adres2">фактический адрес</h3>
+              <address class="lang adresler" key="adres2desc">745000, Туркменистан, Балкан велаят, г.Туркменбаши, торговый центр «Шагадам», кабинет №: 31</address>
             </div>
           </div>
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1864.5163118837922!2d52.99090282076264!3d39.99831365970386!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf2b867eb77205430!2z0KLQvtGA0LPQvtCy0YvQuSDRhtC10L3RgtGAICLQqNCQ0JPQkNCU0JDQnCI!5e1!3m2!1sen!2sus!4v1663226696131!5m2!1sen!2sus" width="600" height="450" style="border: 4px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
@@ -168,7 +169,6 @@
         </div>
       </div>
     </section><!-- End Contact Section -->
-
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -196,5 +196,6 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/db.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
 </body>
 </html>

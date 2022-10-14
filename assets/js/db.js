@@ -1,4 +1,5 @@
 var arrLang = {
+        // TODO:
     'ru': {
       'home' : 'Главная',
       'about' : 'О нас',
@@ -66,6 +67,7 @@ var arrLang = {
       'adres2desc' : '745000, Туркменистан, Балкан велаят, г.Туркменбаши, торговый центр «Шагадам», кабинет №: 31',
 
       // ABOUT.HTML SAHYPASYNDAKYLAR
+      // TODO:
 
 
       'about_p1' : 'Частное охранное предприятие «Зехинли доганлар» основано в 22-го июня 2016 года и перерегистрировано 29-го  мая 2020 года как хозяйственное общество, чтобы приобрести дополнительные коды по ГКВЭД. Предприятие действует на основании Единого государственного реестра № 24594443 от 29-го мая 2020 года и Устава предприятия, выданного Министерством Экономики и Развития Туркменистана.',
@@ -79,6 +81,8 @@ var arrLang = {
       'about_p9' : 'Обратитесь к нам и Вы сохраните свое имущество в целостности и сохранности!',
       'diversifikasiya_title' : 'ДИВЕРСИФИКАЦИЯ ПРЕДПРИЯТИЯ',
       'diversifikasiya_text' : 'С целью диверсификации деятельности хозяйственного общества в 2020 году была налажена работа по техническому обслуживанию автомобилей и предоставления услуг по общественному питанию, а также в январе 2021 года был заключен контракт с Агентством Государственной рыбоохраны и контролю за водными биоресурсами Туркменистана по добыче рыбы и биоресурсов  на Туркменской части акватории Каспийского моря. Кроме этого предприятие держит торговые отношения с такими странами как ОАЭ, Китай, Турция, Россия, Азербайджан и Казахстан.',
+      'autoservice' : 'АВТОСЕРВИС и кафе',
+      'fishing' : 'рыболовство',
       'our_clients' : 'НАШИ ЗАРУБЕЖНЫЕ ТОРГОВЫЕ ПРЕДСТАВИТЕЛИ',
       'charity_title' : 'БЛАГОТВОРИТЕЛЬНОСТЬ',
       'charity_h3' : '«Добрые дела дают силы нам самим и побуждают к добрым поступкам других»',
@@ -91,10 +95,24 @@ var arrLang = {
       'charity_end' : 'Хозяйственное общество «Зехинли доганлар» планирует продолжить благотворительную деятельность, так как лучший способ сохранить память о добрых делах-повторять их.',
 
       // Services.html SAHYPASYNDAKYLAR
+            // TODO:
 
       'services_h3' : 'Выполнять условия договора – это одно, быть вместе с клиентом и слышать его – идея хорошего ведения бизнеса.',
       'services_1' : 'ЧОП «Зехинли доганлар» предлагает полный спектр разрешенных законом охранных и иных услуг в сфере безопасности и охраны.',
       'services_p1' : 'Конкурентным преимуществом нашей компании являться широкий спектр услуг, включая услуги как физической, так и пультовой охраны. В связи с этим компания предоставляет следующие виды охранных услуг:',
+      'usluga1' : 'Услуги физической охраны объектов -',
+      'usluga1.1' : 'комплекс мер, направленных на обеспечение безопасности функционирования объекта, сохранности его материального имущества, защиту жизни и здоровья его персонала. В задачу физической охраны входит контроль пропускного режима, досмотр автотранспорта, предотвращение краж и хищений, обход объекта и прилегающей территории, мониторинг системы видеонаблюдения, контроль действий посетителей и сотрудников предприятия, охрана материальных ценностей, находящихся в свободном доступе, принятие первичных мер по устранению технических аварий и возгораний, предотвращение несанкционированного доступа и повышение, и поддержание высокого статуса объекта/ предприятия.',
+
+      'usluga2' : 'Услуги пультовой охраны -',
+      'usluga2.1' : 'это комплекс электронных систем, позволяющих обеспечивать безопасность объекта с помощью круглосуточной передачи данных, поступающих по защищенным каналам связи на пульт мониторингового центра. Современные системы охраны значительно уменьшают риски незаконного  проникновения на территорию, позволяют оперативно принять меры по расследованию происшествия, если оно все же произошло. Если на объекте произошла чрезвычайная ситуация, система мгновенно оповещает об этом охрану. К тревожным ситуациям относят попытку взлома, незаконного проникновения, кражу имущества и подобные деяния.',
+      
+      'usluga3' : 'Услуги по сопровождению грузов -',
+      'usluga3.1' : 'под сопровождением грузовых перевозок понимают не только непосредственное присутствие охраны на всем пути транспортировки, но и целый комплекс предварительной подготовки и превентивных мер безопасности. В услуги по сопровождению грузов входит подготовительный этап – оптимальный выбор транспорта для перевозки, правильная загрузка с соблюдением мер безопасности, оборудование транспорта аппаратурой слежения, разработка оптимального и максимально безопасного маршрута к пункту назначения с учетом особенностей местности и других важных нюансов, предварительная разведка территории на наличие опасных факторов, организация безопасных методов получения, отправки и выдачи груза, составление расписания остановок для отдыха, дозаправки с отметками медицинских, контрольно-пропускных пунктов, точный расчет времени прибытия груза, физическое сопровождения груза специальными агентами службы.',
+      
+      'uslugap4' : 'Правильная организация перевозки ценных грузов при наличии охранного комплекса, гарантирует заказчику 100% целостность и сохранность груза.',
+      'uslugap5' : 'Мы адаптируем наши услуги под индивидуальные потребности каждого Заказчика. Обеспечиваем надежное сотрудничество на основе заключения официальных договоров  с гибким и лояльным ценообразованием.',
+      
+
       'No' : '№',
       'table_name' : 'Наименование',
       'table_desc' : 'Описание',
@@ -125,7 +143,7 @@ var arrLang = {
 
     },
 
-
+      // TODO:
     'tm': {
 
       'home' : 'Baş sahypa',
@@ -194,7 +212,7 @@ var arrLang = {
       'adres2desc' : '745000, Türkmenistan, Balkan welaýatynyň Türkmenbaşy şäheriniň Balkan köçesiniň 10-njy jaýy “Şagadam” söwda merkeziniň 31-nji otagy',
 
       // ABOUT.HTML SAHYPASYNDAKYLAR
-
+      // TODO:
 
       'about_p1' : '"Zehinli doganlar" hususy gorag kärhanasy 2016-njy ýylyň 22-nji iýunynda döredildi we YIGDK (ykdysady işleriň görnüşleriniň döwlet klassifikatory) görä goşmaça kodlar almak üçin 2020-nji ýylyň 29-njy maýynda hojalyk jemgyýeti hökmünde gaýtadan hasaba alyndy. Kärhana 2020-nji ýylyň 29-njy maýynda çykarylan 24594443 belgili Döwlet sanawy we Türkmenistanyň Ykdysadyýet we Ösüş ministrligi tarapyndan berlen kärhananyň Tertipnamasy esasynda hereket edýär.',
       'about_p2' : 'Hojalyk jemgyýetiniň esasy işi stasionar desgalary (obýektleri) we olaryň töweregini (perimetrini) ýaragsyz fiziki we wideogözegçilik usullary arkaly ýöriteleşdirilen gorag hyzmatlary bilen üpjin etmeklikdir.  Hojalyk jemgyýetiniň hyzmatlarynyň sanawyna obýektleriň we emlägiň ýaragsyz goragy, obýektleriň içindäki üpjünçilik, obýektlere giriş gözegçiligi, howpsuzlyk hem-de duýduryş ulgamlaryny gurnamak, şeýle-de olara tehniki hyzmatlar etmeklik girýär. Hojalyk jemgyýeti  şahsyýetlere, kiçi we iri kärhanalara, şeýle hem Türkmenistanyň çäginde işleýän daşary ýurt kompaniýalaryna gorag hyzmatlaryny hödürleýär.',
@@ -207,6 +225,8 @@ var arrLang = {
       'about_p9' : '',
       'diversifikasiya_title' : 'KÄRHANANYŇ DIWERSIFIKASIÝASY',
       'diversifikasiya_text' : 'Hojalyk jemgyýetiň işini diwersifikasiýa ýoly bilen ösdürmeklik maksady bilen 2020-nji ýylda awtoulaglara hyzmat etmek we naharhana hyzmatlaryny bermek boýunça işler ýola goýuldy. 2021-nji ýylyň ýanwar aýynda Hazar deňziniň kenarýaka suwlarynda suwuň bioserişdelerini peýdalanmak barada Türkmenistanyň Maliýe we ykdysadyýet ministrliginiň ýanyndaky Ykdysadyýeti töwekgelçiliklerden goramak Agentliginiň Döwlet balyk goraýyş we suwuň bioserişdelerine gözegçilik Müdürligi bilen Şertnama baglanyşyldy. Mundan başga-da kompaniýa Birleşen Arap Emirlikleri, Hytaý, Türkiýe, Russiýa, Azerbaýjan we Gazagystan ýaly ýurtlar bilen söwda gatnaşyklaryny dowam etdirýär.',
+      'autoservice' : 'Awtoserwis we kafe',
+      'fishing' : 'balyk tutmak',
       'our_clients' : 'Biziň bilen hyzmatdaşlyk edýän daşary ýurtly söwda wekilleri',
       'charity_title' : 'HAÝYR-SAHAWAT IŞLERI',
       'charity_h3' : '«Ýagşylyk etmeklik biziň özümize güýç berýär we beýlekileri ýagşylyk etmäge iterýär»',
@@ -219,10 +239,26 @@ var arrLang = {
       'charity_end' : '«Zehinli doganlar» hojalyk jemgyýeti haýyr-sahawat işlerini mundan beýläkde dowam etdirmegi meýilleşdirýär, sebäbi ýagşy amallary ýatda saklamagyň iň gowy usuly - olary gaýtalamakdyr. ',
 
       // Services.html SAHYPASYNDAKYLAR
+            // TODO:
 
       'services_h3' : 'Baglanyşylan şertnamanyň şertlerini ýerine ýetirmeklik – bir zat, müşderi bilen bile bolup ony eşitmeklik – işi ýöretmekligiň iň oňat taglymatydyr.',
       'services_1' : '“Zehinli doganlar” hojalyk jemgyýeti kanun tarapyndan rugsat edilen gorag we beýleki hyzmatlaryň howpsuzlyk çygryndaky doly spektrni hödürleýär.',
       'services_p1' : 'Kompaniýamyzyň bäsdeşlik artykmaçlygy - fiziki we wideogözegçilik gorag hyzmatlaryny öz içine alýan hyzmatlaryň giň toplumydyr. Şunuň bilen baglylykda kompaniýamyz hyzmatlaryň aşakdaky görnüşlerini hödürleýär:',
+      
+      
+      'usluga1' : 'Obýektleri fiziki taýdan goramak hyzmatlary -',
+      'usluga1.1' : 'obýektiň işleýşiniň howpsuzlygyny, maddy emläginiň howpsuzlygyny, işgärleriniň ömrüni we saglygyny goramaga gönükdirilen çäreler toplumy bolup durýar. Fiziki taýdan goramagyň wezipesi  giriş-çykyş nokadyny gözegçilikde saklamak, ulaglary barlamak, desganyň çägindäki aýlawly ýollardan girmegiň, ýitgileriň we ogurlygyň öňüni almak, wideo gözegçilik ulgamyna gözegçilik etmek, obýekte gelýän myhmanlarynyň we işgärleriniň hereketlerine gözegçilik etmek, elýeter ýerlerde saklanýan maddy gymmatlyklary goramak, tehniki betbagtçylyklary we ýangynlary ýok etmeklik üçin ilkinji çäreleri görmek, birugsat girmegiň öňüni almak we goralýan desganyň/obýektiň işjeňligini ösdürmek we goldamak ýaly çäreleri öz içine alýar.',
+
+      'usluga2' : 'Wideogözegçilik gorag hyzmatlary -',
+      'usluga2.1' : 'bu öýjükli ulgam toplumy bolup, goralýan desganyň/obýektiň howpsuzlygyny birkemsiz üpjin etmeklik üçin ygtybarly aragatnaşyk kanallary arkaly alynýan maglumatlary gije-gündiziň dowamynda monitoring merkeziniň pultuna bermeklikdir.  Döwrebap howpsuzlyk ulgamlary goralýan desganyň/obýektiň çägine  bikanun girmek howpuny ep-esli azaldýar, eger-de bu waka ýüze çykaýan halatynda, derňemek üçin tiz-dessin çäreleri görmäge mümkinçilik berýär. Desgada/obýektde adatdan daşary ýagdaý ýüze çykan halatynda, ulgam derrew goragçylara habar berýär. Duýduryşly ýagdaýlara - ogurlyga synanyşmak, bikanun girmek, emläk ogurlamak we şuňa meňzeş hereketler girýär.',
+      
+      'usluga3' : 'Ýükleri ugratmak hyzmatlary -',
+      'usluga3.1' : 'ýükleri daşamaklyk, munyň özi diňe bir  ähli ulag ýollary boýunça goragçylaryň gönüden-göni bolmagy däl-de, eýsem deslapky taýýarlyk we öňüni alyş howpsuzlyk çäreleriniň toplumyny hem aňladýar. Ýükleri ugratmak hyzmatlarynyň taýýarlyk tapgyry – ýükleri daşamaklyk üçin iň amatly ulaglaryň saýlanylmagy, ýükleriň howpsuzlyk çärelerine laýyk ýüklenilmegi, ulaglarda yzarlaýyş enjamlaryň oturdylmagy, ýükiň barmaly ýerine çenli iň amatly we iň howupsyz marşrutyny işläp düzmeklik üçin sebitiň aýratynlyklarynyň we beýleki möhüm aýratynlyklaryň (nuanslaryň) göz öňine tutulmagy, ugradylýan ýükleriň geçýän çäklerinde howply faktorlaryň barlygyny anyklamaklyk üçin deslapky barlag çäreleriniň geçirilmegi, ýükleri kabul etmegiň, ibermegiň we tabşyrmagyň ygtybarly usullarynyň gurnalmagy, ýollarda dynç alyş duralgalarynyň meýilleşdirilmegi, awtoulaglara ýangyç guýyş nokatlarynda ulaglara ýangyjyň guýulmasy, lukmançylyk bellikleriň amala aşyrylmasy, ýükleriň gelen wagtynyň takyk hasaplanmasy, ýükleriň gorag gullugynyň wekilleri tarapyndan ugradylmagyny öz içine alýar.',
+      
+      'uslugap4' : 'Gorag toplumy esasynda gymmat bahaly harytlaryň daşalmagyny dogry gurnamak - munyň özi  Müşderä ýüküň 100% bitewiligini we abatlygyny kepillendirilýär.',
+      'uslugap5' : 'Biz hyzmatlarymyzy her bir Müşderiniň aýratyn zerurlyklaryna görä uýgunlaşdyryp, çeýe we ygrarly nyrh bilen resmi şertnamalaryň baglaşylmagynyň esasynda ygtybarly hyzmatdaşlygy üpjün edýäris.',
+      
+
       'No' : '№',
       'table_name' : 'Ady',
       'table_desc' : 'Beýany',
@@ -256,7 +292,7 @@ var arrLang = {
 
 
 
-
+      // TODO:
     'en': {
       'home' : 'Home',
       'about' : 'About',
@@ -269,7 +305,141 @@ var arrLang = {
       'active_lang': 'Language',
       'bitewilik1' : 'Our slogan:',
       'bitewilik2' : '«integrity & safety»',
-    'aboutus_title' : 'About us',
+      'aboutus_title' : 'About us',
+
+
+      
+    'about_shortly'  : 'The main activity of the economic company is the provision of security services, specializing in services for the physical and console protection of objects and their perimeter. The list of the company\'s services includes unarmed security of objects and property, provision of inside the object and access control at the objects, installation and maintenance of security and alarm systems. The company provides security services to individuals, small and large enterprises, as well as foreign companies operating in the territory of Turkmenistan.',
+    'learn_more'  : ' Learn more',
+    'section1p'  : ' “Zehinli doganlar” is a reliable representative in the field of security services',
+    'kartocka1_f'  : 'Unarmed day and night security',
+    'kartocka2_f'  : 'Security on a rotational basis',
+    'kartocka3_f'  : 'Ensuring inside the object and access control',
+    'kartocka4_f'  : 'Cargo escort and escort vehicle',
+    'kartocka5_f'  : 'Installation of object security systems',
+    'kartocka6_f'  : 'Maintenance of the facility security system',
+    'kartocka1'  : ' This type of service involves the presence of two shifts of guards at stationary posts for 12 hours, as well as bypassing and bypassing the perimeter of the object. It is allowed to use other modes of operation (7-and, 8-and, 12-hour or others) for security guards within the framework of the Labor Code. A mandatory requirement is the constant presence of one guard at the post.',
+    'kartocka2'  : ' When using a rotational work method for security guards (12 hour working day), 2 guards will be on duty at the post per day, one will be on duty on the day shift, and the other on the night shift. After a 15 day shift, two new guards are on duty. Thus, a round-the-clock, constant presence of one guard at the guard post is achieved. In general, 4 people are involved in such a guard post during the month.',
+    'kartocka3'  : ' This type of security service involves equipping the checkpoint with warning signs and turnstiles to control the passage of people and vehicles. More guards are expected here than in stationary posts, since they have to simultaneously perform more work, both vehicle inspection and a large flow of people.',
+    'kartocka4'  : ' This type of security activity involves the provision of transport, security and escort of the Customer within 24 hours a day. At the request of the Customer, our company is able to provide drivers and security guards with knowledge of foreign languages.',
+    'kartocka5'  : ' This service involves, by agreement of the Customer, the installation of a security alarm and a video surveillance system for visual control of the territory, warehouses and the perimeter of the protected object in order to prevent illegal actions by violators.',
+    'kartocka6'  : ' This service involves the maintenance of the installed security alarm and video surveillance system for the smooth operation of the installed equipment.',
+    'why_we'  : ' What do you get by cooperating with us?',
+    'ls1'  : ' Reliable professional security of the object/perimeter',
+    'ls2'  : ' Minimizing the risks of unauthorized persons entering the territory of the protected facility',
+    'ls3'  : ' Preservation of property',
+    'ls4'  : ' Personnel safety',
+    'ls5'  : ' Personal security',
+    'ls6'  : ' Conflict prevention',
+    'ls7'  : ' Fast and professional response during various incidents',
+    'ls8'  : ' Selection, installation, configuration and maintenance of integrated security and video surveillance systems',
+    'ls9'  : ' Guaranteed confidentiality',
+    'ls10'  : 'Legal actions in the field of protection of the Customer\'s property',
+    'ls11'  : 'Constant quality control of the work of each employee',
+    'ls12'  : '24/7 support',
+    'ls13'  : 'Quiet life and the ability to concentrate on your goals without worrying about security',
+    'summary'  : '"Zehinli doganlar" security company is a smart choice for protecting any object. We are a recognized leader in the field of security, maintaining security standards and ensuring the safety of everything we are responsible for. ',
+    'section2h3'  : 'Focus on what is important to you,  ',
+    'section2h32'  : ' and we will take care of your safety!',
+    'section3h3'  : 'Turning to "Zehinli doganlar" ',
+    'section3p'  : ' you will keep your property intact and safe!',
+    'how_we_work'  : ' How we are working?',
+    'contract'  : ' Contract',
+    'information'  : ' Information',
+    'analysis'  : ' Analysis',
+    'mount'  : ' Assembling',
+    'guard'  : ' Protection',
+    'ct1'  : ' Conclusion of bilateral contracts based on mutual agreements',
+    'ct2'  : ' Protection of an object depends on the degree of its vulnerability, location, area and other characteristics',
+    'ct3'  : 'Conducting a thorough inspection and analysis of the facility to provide an individual set of measures for the security of the facility ',
+    'ct4'  : 'After agreement with the Customer, the necessary equipment is installed ',
+    'ct5'  : 'Guaranteeing the high quality of the services provided and prompt response and clarity of actions of employees even in the most unusual situation ',
+    'contact_us'  : ' Contacts',
+    'phone_number'  : 'Phone number ',
+    'faxno'  : 'Fax ',
+    'adres1'  : ' legal address',
+    'adres1desc'  : '745110, Turkmenistan, Balkan state, Gumdag city, complex of residential buildings no 15, house 88. ',
+    'adres2'  : ' physical address',
+    'adres2desc'  : '745000, Turkmenistan, Balkan state, Turkmenbashy city, shopping center "Shagadam", room no: 31 ',
+      
+    // ABOUT.HTML SAHYPASYNDAKYLAR
+    // TODO
+      
+      
+    'about_p1' : 'Private security company "Zehinli Doganlar" was founded on June 22, 2016 and reregistered on May 29, 2020 as a business entity in order to acquire additional codes for the GKVED. The enterprise operates on the basis of the Unified State Register No. 24594443 dated May 29, 2020 and the Charter of the enterprise issued by the Ministry of Economy and Development of Turkmenistan.',
+    'about_p2' : 'The main activity of the economic company is the provision of security services, specializing in services for the physical and console protection of objects and their perimeter. The list of the company\'s services includes unarmed security of objects and property, provision of inside the object and access control at the objects, installation and maintenance of security and alarm systems. The company provides security services to individuals, small and large enterprises, as well as foreign companies operating in the territory of Turkmenistan.',
+    'about_p3' : 'The economic society "Zehinli doganlar" carries out its security activities in accordance with the unified GKVED (State Classification of Economic Activities), introduced on 01.01.2014, section 80, group 80.1, class 80.10, which includes the activities of security guards, watchmen, security gate men, guard services and group 80.2, class 80.20, which includes ensuring the functioning of security systems.',
+    'about_p4' : 'The Zehinli Doganlar Economic Society has all the necessary regulatory documents and resources to perform security services, including transport and PPE for security guards. The company provides qualified security guards with experience who work around the clock for 7 (seven) days a week. Security services are provided 24 hours a day.',
+    'about_p5' : 'Also, the company releases the Customer from all kinds of risks related to the health of security workers, injuries at the workplace, etc., since the employees are insured against possible risks of injuries at the workplace.',
+    'about_p6' : 'From July 2016 to July 2022, our company provided security services to the South Korean company “HYUNDAI ENGINEERING Co. LTD” under the TACE project - construction of a plant for the production of polyethylene and polypropylene with an ethane cracker unit, in the territory of the Kiyanly village, Turkmenbashi etrap and the TORE project - design, purchase and construction of vacuum distillation units for fuel oil, alkylation of light olefins, blending of gasoline located in the Turkmenbashi etrap KNPZ, a shift camp in the city of Turkmenbashi, Balkan province of Turkmenistan.',
+    'about_p7' : 'The Zehinli Doganlar Economic Society actively participates in tenders held by foreign companies such as “CNPC International” (T-n), “ENI” (T-n), “Petronas Çarigali” (T-n), operating on the basis of an agreement on the distribution of products and the Law of Turkmenistan "On hydrocarbon resources", and also the South Korean company “Hyundai Engineering Co. ltd.”',
+    'about_p8' : 'The goal of the company corresponds to its motto "Integrity and safety", since the main task is to take prompt measures to prevent unauthorized intrusions, as well as to ensure the integrity and safety of the property of the protected object.',
+    'about_p9' : 'Contact us and you will keep your property safe and sound!',
+    'diversifikasiya_title' : 'ENTERPRISE DIVERSIFICATION',
+    'diversifikasiya_text' : 'In order to diversify the activities of the economic society, in 2020, work was established on the maintenance of cars and the provision of catering services, and in January 2021, a contract was signed with the Agency of the State Fish Protection and Control of Aquatic Biological Resources of Turkmenistan for the extraction of fish and biological resources in the Turkmen part waters of the Caspian Sea. In addition, the company maintains trade relations with such countries as the United Arab Emirates, China, Turkey, Russia, Azerbaijan and Kazakhstan.',
+    'autoservice' : 'AUTO SERVICE AND CAFE',
+    'fishing' : 'fishing',
+    'our_clients' : 'OUR FOREIGN SALES REPRESENTATIVES',
+    'charity_title' : 'charity',
+    'charity_h3' : '“Good deeds give strength to ourselves and encourage others to do good deeds”',
+    'charity_1' : 'Since 2019, Zehinli Doganlar Economic Society has been engaged in charitable activities. The first step was taken in April 2019 by contributing funds for the construction of the main mosque of the Balkan velayat in the city of Balkanabat. ',
+    'charity_2' : 'Provide rehabilitation treatment to Rehabilitation Center in Ashgabat for the Disabled of Turkmenistan. ',
+    'charity_3' : 'To the National Center for Special Olympics of Turkmenistan (NTSOT) in the purchase of sports equipment, sports equipment for the upcoming championships in sports, where people with Down syndrome and intellectually disabled people take part.',
+    'charity_4' : 'To the Society of the Deaf and Dumb in Balkanabat to improve the conditions for the maintenance of children with disabilities.',
+    'charity_5' : 'To entrepreneur H. Godanov on the creation of a local history museum in the city of Etrek, Etrek etrap, Balkan region.',
+    
+    // FIXME: ŞUNY TÄZEDEN PEREWOD ETMELI BOLUP BILER
+    'charity_6' : 'In connection with the celebration of the day of the disabled and people with disabilities, as well as assistance in improving the services provided by the Society of the Disabled of Turkmenistan, we provided financial assistance.',
+    'charity_end' : 'The Zehinli Doganlar Economic Society plans to continue its charitable activities, as the best way to keep the memory of good deeds is to repeat them.',
+      
+    // Services.html SAHYPASYNDAKYLAR
+    // TODO
+      
+    'services_h3' : 'Fulfilling the terms of the contract is one thing, being with the client and hear him means managing business well.',
+    // FIXME: shuna bir zat yazmaly bolup biler
+    'services_1' : '',
+    'services_p1' : 'The competitive advantage of our company is a wide range of services, including both physical and console security services. In this regard, the company provides the following types of security services:',
+    'usluga1' : 'Services of physical protection of objects - ',
+    'usluga1.1' : 'a set of measures aimed at ensuring the safety of the operation of the object, the safety of its material property, the protection of the life and health of its personnel. The task of physical security includes access control, inspection of vehicles, prevention of theft and plunder, bypassing the facility and the surrounding area, monitoring the video surveillance system, monitoring the actions of visitors and employees of the enterprise, protecting material assets that are freely available, taking primary measures to eliminate technical accidents and fires, prevent unauthorized access and enhance and maintain the high status of the facility/enterprise.',
+      
+    'usluga2' : 'Console security services - ',
+    'usluga2.1' : 'are a set of electronic systems that allow to ensure the security of an object by means of round-the-clock transmission of data received via secure communication channels to the monitoring center console. Modern security systems significantly reduce the risks of illegal entry into the territory, allow you to quickly take measures to investigate the incident, if it does happen. If an emergency situation occurs at the facility, the system instantly notifies the guards about it. Alarming situations include attempted burglary, illegal entry, theft of property and similar acts.',
+    
+    'usluga3' : 'Cargo escort services -',
+    'usluga3.1' : 'cargo escort is understood not only as the direct presence of security guards along the entire transportation route, but also as a whole range of preliminary preparation and preventive security measures. Cargo escort services include a preparatory stage - the optimal choice of transport for transportation, proper loading in compliance with security measures, equipment of transport with tracking equipment, development of an optimal and maximum safe route to the destination, taking into account the terrain and other important nuances, preliminary reconnaissance of the territory for the presence dangerous factors, organization of safe methods of receiving, sending and issuing cargo, scheduling stops for rest, refueling with marks of medical, checkpoints, accurate calculation of the time of cargo arrival, physical escort of cargo by special agents of the service.',
+    
+    'uslugap4' : 'The correct organization of the transportation of valuable cargo in the presence of a security complex guarantees the customer 100% integrity and safety of the cargo.',
+    'uslugap5' : 'We tailor our services to the individual needs of each customer. We provide reliable cooperation based on the conclusion of official contracts with flexible and loyal pricing.',
+    
+      
+    'No' : 'No',
+    'table_name' : 'Name',
+    'table_desc' : 'Description',
+    'table_price' : 'Price',
+    'table1' : 'Services of physical protection of objects',
+    'rc1' : 'Unarmed daytime guard',
+    'rc2' : 'Daytime guard without arms (minimum order - 12 hours)',
+    'rc3' : 'contractual',
+    'r2c1' : 'Unarmed guards at night',
+    'r2c2' : 'Night security without  arms (minimum order - 12 hours)',
+    'r3c1' : 'Security on a rotational basis',
+    'r3c2' : 'Security on a rotational basis',
+    'r4c1' : 'Ensuring inside the object and access modes',
+    'r4c2' : 'Ensuring inside the object and access modes',
+    'table2' : 'Cargo escort services',
+    'r5c1' : 'Cargo escort',
+    'r5c2' : 'Escort of goods by a security guard',
+    'r6c1' : 'Escort car',
+    'r6c2' : 'Escort car (2 guards)',
+    'table3' : 'Console security services',
+    'r7c1' : 'Installation of a facility security system',
+    'r7c2' : 'Installation of an object security system of small, medium, large capacity',
+    'r8c1' : 'Maintenance of the facility security system',
+    'r8c2' : 'Maintenance of object security systems of small, medium, large capacity',
+    'aftertable' : 'Our main goal is to provide impeccable security services that exceed the expectations and needs of our clients, based on integrity and professionalism. Our work is focused on developing unique solutions for the security of our customers that correspond to the realities of today.',
+    'you_get' : '"OUR SUCCESS - YOUR SAFETY"',
+    'services_end' : 'From July 2016 to July 2022, our company provided security services to the South Korean company HYUNDAI ENGINEERING Co. LTD" under the TACE project - construction of a plant for the production of polyethylene and polypropylene with an ethane cracking unit, in the territory of the Kiyanly village, Turkmenbashi etrap and the TORE project - design, purchase and construction of vacuum distillation units for fuel oil, alkylation of light olefins, blending of gasoline located in the Turkmenbashi etrap KNPZ, a shift camp in the city of Turkmenbashi, Balkan province of Turkmenistan.',
+      
 
     }
   };
