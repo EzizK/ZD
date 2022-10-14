@@ -130,7 +130,7 @@ var arrLang = {
       'russian' : 'Rusça',
       'turkmen' : 'Türkmençe',
       'english' : 'Iňlisçe',
-      'active_lang' : 'Dili',
+      'active_lang' : 'Dil',
       'bitewilik1' : 'Biziň şygarymyz:',
       'bitewilik2' : '«bitewilik & abatlyk»',
       'aboutus_title' : 'Biz barada',

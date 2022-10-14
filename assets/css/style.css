@@ -276,7 +276,7 @@ h6 {
 .navbar .dropdown ul {
   display: block;
   position: absolute;
-  right: 5px;
+  right: -10px;
   top: calc(100% + 30px);
   margin: 0;
   padding: 10px 0;
@@ -285,7 +285,7 @@ h6 {
   visibility: hidden;
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: 0.3s;
+  transition: all ease-in-out 0.5s;
 }
 
 .navbar .dropdown ul li {
@@ -324,6 +324,16 @@ h6 {
   top: 0;
   left: 100%;
   visibility: visible;
+}
+
+.flags {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 @media (max-width: 1366px) {
@@ -533,9 +543,28 @@ h6 {
   }
 
   #hero .slogan h2:nth-child(2) {
-  top:30%
+  top:20%;
   }
   
+}
+
+@media screen and (max-width:531px) {
+
+  #hero .slogan h2:nth-child(2) {
+    top:25%;
+    /* font-size: 1.5rem; */
+    }
+}
+
+@media screen and (max-width:462px) {
+  #hero .slogan h2 {
+    font-size: 2rem;
+  }
+
+  #hero .slogan h2:nth-child(2) {
+    top:17%;
+    /* font-size: 1.5rem; */
+    }
 }
 
 #hero .hero-content .btn-get-started,
@@ -2442,15 +2471,6 @@ margin-right: 40px;
   border: gray solid 0.1px;
 }
 
-.flags {
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  margin-left: -10px;
-  margin-right: 10px;
-  margin-top: 0;
-  margin-bottom: 0;
-}
 
 #services .flip-box-front .white-color {
   color: white;
