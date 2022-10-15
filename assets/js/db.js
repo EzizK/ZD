@@ -1,6 +1,7 @@
 var arrLang = {
         // TODO:
     'ru': {
+
       'home' : 'Главная',
       'about' : 'О нас',
       'services' : 'Услуги',
@@ -141,6 +142,23 @@ var arrLang = {
       'you_get' : '«НАШ УСПЕХ – ВАША БЕЗОПАСНОСТЬ»',
       'services_end' : 'С июля 2016 года до июля 2022 года наше предприятие оказывало охранные услуги южнокорейской компании «HYUNDAI ENGINEERING Co. LTD» по проекту TACE - строительство завода по производству полиэтилена и полипропилена с установкой крекинга этана, на территории поселка Киянлы, Туркменбашинского этрапа  и проекту TORE – проектирование, закупка и строительство установок вакуумной перегонки мазута, алкилирование легких олефинов, смешивание бензинов, расположенных на территории Туркменбашинского КНПЗ, вахтового городка в г. Туркменбаши Балканского велаята Туркменистана.',
 
+// Gallery page
+      // TODO:
+      'gal1' : 'Работа на КПП',
+      'gal2' : 'Осмотр въезжающего транспорта',
+      'gal3' : 'Осмотр выезжающего транспорта',
+      'gal4' : 'Осмотр периметра Объекта',
+      'gal5' : 'Обеспечение внутри объектного и пропускного режима',
+      'gal6' : 'Санитарно-медицинский контроль',
+      'gal7' : 'Контроль пультовой охраны',
+      'gal8' : 'Контрольно-пропускной режим на КПП',
+      'gal9' : 'Проверка ручной клади',
+      'gal10' : 'Осмотр большегрузных машин',
+      'gal11' : 'Контроль пропускного режима',
+      'gal12' : 'Контроль за проходящими через турникет',
+      'gal13' : 'Состав сотрудников 1-ой смены',
+      'gal14' : 'Состав сотрудников 2-ой смены',
+
     },
 
       // TODO:
@@ -192,7 +210,7 @@ var arrLang = {
       'section2h32' : 'biz bolsa siziň howpsuzlygyňyzy alada ederis!',
       'section3h3' : 'Bize ýüzlenmeklik bilen',
       'section3p' : '«Siz emlägiňizi bitewi we abat saklarsyňyz»',
-      'how_we_work' : 'Biz nahili işleýäris?',
+      'how_we_work' : 'Biz nahili işleýäris',
       'contract' : 'Şertnama',
       'information' : 'Maglumat',
       'analysis' : 'Seljeriş',
@@ -237,6 +255,7 @@ var arrLang = {
       'charity_5' : 'Balkan welaýatynyň Etrek etrabynyň  ýaşaýjysy we telekeçi H. Godanowa  ýerli halkyň haýyşy boýunça, Etrek şäherinde taryhy – ülkäni öwreniş muzeýini döretmekde berilen maliýe kömegi',
       'charity_6' : 'Ýurtda mümkinçiligi çäkli we maýyplar gününiň geçirilmegi sebäpli hem-de maýyplara edilýän hyzmatlaryň hilini gowlandyrmaklyk üçin biz tarapdan Türkmenistanyň Maýyplar Jemgyýetine geçirilen maliýe kömegi',
       'charity_end' : '«Zehinli doganlar» hojalyk jemgyýeti haýyr-sahawat işlerini mundan beýläkde dowam etdirmegi meýilleşdirýär, sebäbi ýagşy amallary ýatda saklamagyň iň gowy usuly - olary gaýtalamakdyr. ',
+
 
       // Services.html SAHYPASYNDAKYLAR
             // TODO:
@@ -287,6 +306,24 @@ var arrLang = {
       'you_get' : '«BIZIŇ ÜSTÜNLIGIMIZ – SIZIŇ HOWPSUZLYGYŇYZ»',
       'services_end' : '2016-njy ýylyň iýulyndan 2022-nji ýylyň iýulyna çenli kompaniýamyz Günorta Koreýanyň «HYUNDAI ENGINEERING Co. LTD» kompaniýasyna TACE - Türkmenbaşy etrabynyň, Gyýanly obasynyň çäginde etan kreýking enjam bilen polietilen we polipropilen öndürýän zawodyň gurluşygy Taslamasynda şeýle hem Türkmenistanyň Balkan welaýatynyň Türkmenbaşy şäherindäki nebiti gaýtadan işleýän zawodlar toplumynda TORE – mazut ýagynyň wakum distilýasiýasy, ýeňil olefinleriň alkilýasiýasy we benziniň garyndysy boýunça taslamalaryny düzmek, enjamlaryny satyn almak we gurmak Taslamasynda gorag hyzmatlaryny amala aşyrdy.',
 
+
+      // Gallery page
+      // TODO:
+      'gal1' : 'Barlag nokady',
+      'gal2' : 'Girýän ulaglaryň barlagy',
+      'gal3' : 'Çykýan ulaglaryň barlagy',
+      'gal4' : 'Obýektiň perimetriniň barlagy',
+      'gal5' : 'Obýektiň içiniň we girelgesiniň tertibi',
+      'gal6' : 'Arassaçylyk we lukmançylyk gözegçiligi',
+      'gal7' : 'Uzakdan dolandyryş',
+      'gal8' : 'Barlag nokadyna gözegçilik',
+      'gal9' : 'El goşlarynyň barlagy',
+      'gal10' : 'Agyr ulaglaryň barlagy',
+      'gal11' : 'Geçelgäniň barlagy',
+      'gal12' : 'Turniketden girýänleriň barlagy',
+      'gal13' : '1-nji iş nobatynyň işgärleri',
+      'gal14' : '2-nji iş nobatynyň işgärleri',
+
     },
 
 
@@ -294,6 +331,7 @@ var arrLang = {
 
       // TODO:
     'en': {
+
       'home' : 'Home',
       'about' : 'About',
       'services' : 'Services',
@@ -343,7 +381,7 @@ var arrLang = {
     'section2h32'  : ' and we will take care of your safety!',
     'section3h3'  : 'Turning to "Zehinli doganlar" ',
     'section3p'  : ' you will keep your property intact and safe!',
-    'how_we_work'  : ' How we are working?',
+    'how_we_work'  : ' How we are working',
     'contract'  : ' Contract',
     'information'  : ' Information',
     'analysis'  : ' Analysis',
@@ -440,6 +478,22 @@ var arrLang = {
     'you_get' : '"OUR SUCCESS - YOUR SAFETY"',
     'services_end' : 'From July 2016 to July 2022, our company provided security services to the South Korean company HYUNDAI ENGINEERING Co. LTD" under the TACE project - construction of a plant for the production of polyethylene and polypropylene with an ethane cracking unit, in the territory of the Kiyanly village, Turkmenbashi etrap and the TORE project - design, purchase and construction of vacuum distillation units for fuel oil, alkylation of light olefins, blending of gasoline located in the Turkmenbashi etrap KNPZ, a shift camp in the city of Turkmenbashi, Balkan province of Turkmenistan.',
       
+// Gallery page
+      // TODO:
+    'gal1': 'Work on the checkpoint',
+    'gal2': 'inspection of entering transport',
+    'gal3': 'Inspection of the departing transport',
+    'gal4': 'inspection of the perimeter of the object',
+    'gal5': 'Providing within the object and access control',
+    'gal6': 'Sanitary-medical control',
+    'gal7': 'control of remote guard',
+    'gal8': 'Control and receipt regime on the checkpoint',
+    'gal9': 'Hand luggage check-in',
+    'gal10': 'Inspection of heavy vehicles',
+    'gal11': 'Control of access control',
+    'gal12': 'Control over passing through the turnstile',
+    'gal13': 'Composition of employees of the 1st shift',
+    'gal14': 'Composition of employees of the 2nd shift',
 
     }
   };

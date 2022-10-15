@@ -1900,6 +1900,10 @@ position: relative;
   height: 200px;
 }
 
+.bashky3 {
+  height: min-content;
+}
+
 /* FIXME: CALL TO ACTION MEDIA QUERY */
 @media screen and (min-width: 770px) and (max-width: 1200px) { 
 #call-to-action .cta-title {
@@ -2262,11 +2266,16 @@ th[scope=row] {
   position: relative;
 }
 
+.hero-parent {
+  display: block;
+  position: relative;
+}
+
 .hero-waves-down {
   display: block;
   width: 100%;
   height: 60px;
-  position: relative;
+  position: absolute;galler
 }
 
 
