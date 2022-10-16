@@ -66,6 +66,7 @@ var arrLang = {
       'adres1desc' : '745110, Туркменистан, Балкан велаят, г.Гумдаг, комплекса жилых домов 15, Дом 88.',
       'adres2' : 'фактический адрес',
       'adres2desc' : '745000, Туркменистан, Балкан велаят, г.Туркменбаши, торговый центр «Шагадам», кабинет №: 31',
+      'send_message' : 'Отправить сообщение',
 
       // ABOUT.HTML SAHYPASYNDAKYLAR
       // TODO:
@@ -228,6 +229,7 @@ var arrLang = {
       'adres1desc' : '745110, Türkmenistan, Balkan welaýatynyň Gumdag şäheriniň 15-nji ýaşaýyş jaýlar toplumynyň 88-njy jaýy.',
       'adres2' : 'Hakyky salgymyz',
       'adres2desc' : '745000, Türkmenistan, Balkan welaýatynyň Türkmenbaşy şäheriniň Balkan köçesiniň 10-njy jaýy “Şagadam” söwda merkeziniň 31-nji otagy',
+      'send_message' : 'Hat iberiň',
 
       // ABOUT.HTML SAHYPASYNDAKYLAR
       // TODO:
@@ -399,7 +401,9 @@ var arrLang = {
     'adres1desc'  : '745110, Turkmenistan, Balkan state, Gumdag city, complex of residential buildings no 15, house 88. ',
     'adres2'  : ' physical address',
     'adres2desc'  : '745000, Turkmenistan, Balkan state, Turkmenbashy city, shopping center "Shagadam", room no: 31 ',
-      
+    'send_message' : 'Send message',
+  
+
     // ABOUT.HTML SAHYPASYNDAKYLAR
     // TODO
       
