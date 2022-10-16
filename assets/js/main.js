@@ -305,29 +305,3 @@
 
 })()
 
-
-
-//change language
-var defLang = 'ru';
-let cookLang  = getCookie('lang');
-
-if (cookLang){
-    // defLang = cookLang;
-    changeLang(cookLang);
-}else {
-    setCookie('lang', defLang);
-}
-function changeLang(lang){
-  console.log('defLang: ', defLang)
-  console.log('lang: ', lang)
-      // defLang = lang;
-      setCookie('lang', lang);
-      let elements = document.querySelectorAll('.lang');
-
-      Array.prototype.forEach.call(elements, function(el, i){
-          let attr = el.getAttribute('key');
-          el.innerHTML = arrLang[lang][attr];
-      }); 
-      // document.getElementById("activelang").innerHTML = lang;
-
-}
