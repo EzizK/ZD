@@ -168,15 +168,17 @@ h6 {
 
 .logotip {
   height: 30px;
-  width: 200px;
+  width: fit-content;
+  max-width: 250px;
   display: flex;
   font-size: 17px;
   font-weight: 600;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   text-transform: uppercase;
   justify-content: center;
   font-style: italic;
+  margin-top: -4px;
 }
 
 #header #logo h1 {
@@ -2233,6 +2235,36 @@ th[scope=row] {
   z-index: 2;
 }
 
+.gallery__hrz .gallery__text {
+  max-width: fit-content;
+  padding: 0.2rem 0.5rem;
+  left: 38%;
+  /* flex-wrap: wrap; */
+  font-size: 1rem;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width:1360px) {
+  .gallery__hrz .gallery__text {
+    left: 35%;
+  }
+}
+
+@media (max-width:950px) {
+  .gallery__hrz .gallery__text {
+    left: 30%;
+  }
+}
+
+@media (max-width:756px) {
+  .gallery__hrz .gallery__text {
+    /* left: 25%; */
+    font-size: 0.7rem;
+  }
+}
+
 .gallery__card:hover .gallery__text {
   opacity: 1;
 }
@@ -2241,6 +2273,17 @@ th[scope=row] {
   opacity: 1;
 }
 
+/* @media (max-width: 1200px) {
+  .gallery__card {
+    --card-height: 20rem;
+    position: relative;
+    width:auto;
+  }
+
+  .setir {
+    width: 100%;
+  }
+} */
 
 @media (max-width: 768px) {
   .gallery {

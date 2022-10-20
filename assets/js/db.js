@@ -5,6 +5,8 @@ var arrLang = {
         // TODO:
     'ru': {
 
+      'companyn1' : '"Зехинли Доганлар"',
+      'companyn2' : 'хозяйственное общество',
       'home' : 'Главная',
       'about' : 'О нас',
       'services' : 'Услуги',
@@ -143,7 +145,7 @@ var arrLang = {
       'r8c1' : 'Обслуживание системы объектовой охраны',
       'r8c2' : 'Техническое обслуживание систем объектовой охраны малой, средней, большой емкости',
       'aftertable' : 'Наша основная задача предоставлять безупречные услуги охраны, которые превосходят ожидания и потребности наших клиентов, в основе которых лежат честность и профессионализм. Наша работа направлена на разработку уникальных решений для безопасности наших клиентов, которые соответствует реалиям сегодняшнего дня.',
-      'you_get' : '«НАШ УСПЕХ – ВАША БЕЗОПАСНОСТЬ»',
+      'you_get' : 'НАШ УСПЕХ – ВАША БЕЗОПАСНОСТЬ',
       'services_end' : 'С июля 2016 года до июля 2022 года наше предприятие оказывало охранные услуги южнокорейской компании «HYUNDAI ENGINEERING Co. LTD» по проекту TACE - строительство завода по производству полиэтилена и полипропилена с установкой крекинга этана, на территории поселка Киянлы, Туркменбашинского этрапа  и проекту TORE – проектирование, закупка и строительство установок вакуумной перегонки мазута, алкилирование легких олефинов, смешивание бензинов, расположенных на территории Туркменбашинского КНПЗ, вахтового городка в г. Туркменбаши Балканского велаята Туркменистана.',
 
 // Gallery page
@@ -168,6 +170,8 @@ var arrLang = {
       // TODO:
     'tm': {
 
+      'companyn1' : 'Zehinli Doganlar',
+      'companyn2' : 'Hojalyk jemgyýeti',
       'home' : 'Baş sahypa',
       'about' : 'Biz barada',
       'services' : 'Hyzmatlar',
@@ -279,7 +283,7 @@ var arrLang = {
       'usluga2.1' : 'bu öýjükli ulgam toplumy bolup, goralýan desganyň/obýektiň howpsuzlygyny birkemsiz üpjin etmeklik üçin ygtybarly aragatnaşyk kanallary arkaly alynýan maglumatlary gije-gündiziň dowamynda monitoring merkeziniň pultuna bermeklikdir.  Döwrebap howpsuzlyk ulgamlary goralýan desganyň/obýektiň çägine  bikanun girmek howpuny ep-esli azaldýar, eger-de bu waka ýüze çykaýan halatynda, derňemek üçin tiz-dessin çäreleri görmäge mümkinçilik berýär. Desgada/obýektde adatdan daşary ýagdaý ýüze çykan halatynda, ulgam derrew goragçylara habar berýär. Duýduryşly ýagdaýlara - ogurlyga synanyşmak, bikanun girmek, emläk ogurlamak we şuňa meňzeş hereketler girýär.',
       
       'usluga3' : 'Ýükleri ugratmak hyzmatlary -',
-      'usluga3.1' : 'ýükleri daşamaklyk, munyň özi diňe bir  ähli ulag ýollary boýunça goragçylaryň gönüden-göni bolmagy däl-de, eýsem deslapky taýýarlyk we öňüni alyş howpsuzlyk çäreleriniň toplumyny hem aňladýar. Ýükleri ugratmak hyzmatlarynyň taýýarlyk tapgyry – ýükleri daşamaklyk üçin iň amatly ulaglaryň saýlanylmagy, ýükleriň howpsuzlyk çärelerine laýyk ýüklenilmegi, ulaglarda yzarlaýyş enjamlaryň oturdylmagy, ýükiň barmaly ýerine çenli iň amatly we iň howupsyz marşrutyny işläp düzmeklik üçin sebitiň aýratynlyklarynyň we beýleki möhüm aýratynlyklaryň (nuanslaryň) göz öňine tutulmagy, ugradylýan ýükleriň geçýän çäklerinde howply faktorlaryň barlygyny anyklamaklyk üçin deslapky barlag çäreleriniň geçirilmegi, ýükleri kabul etmegiň, ibermegiň we tabşyrmagyň ygtybarly usullarynyň gurnalmagy, ýollarda dynç alyş duralgalarynyň meýilleşdirilmegi, awtoulaglara ýangyç guýyş nokatlarynda ulaglara ýangyjyň guýulmasy, lukmançylyk bellikleriň amala aşyrylmasy, ýükleriň gelen wagtynyň takyk hasaplanmasy, ýükleriň gorag gullugynyň wekilleri tarapyndan ugradylmagyny öz içine alýar.',
+      'usluga3.1' : 'ýükleri daşamaklyk, munyň özi diňe bir  ähli ulag ýollary boýunça goragçylaryň gönüden-göni bolmagy däl-de, eýsem deslapky taýýarlyk we öňüni alyş howpsuzlyk çäreleriniň toplumyny hem aňladýar. Ýükleri ugratmak hyzmatlarynyň taýýarlyk tapgyry – ýükleri daşamaklyk üçin iň amatly ulaglaryň saýlanylmagy, ýükleriň howpsuzlyk çärelerine laýyk ýüklenilmegi, ulaglarda yzarlaýyş enjamlaryň oturdylmagy, ýükiň barmaly ýerine çenli iň amatly we iň howpsyz ýoluny (marşrutyny) işläp düzmeklik üçin sebitiň aýratynlyklarynyň we beýleki möhüm aýratynlyklaryň (nuanslaryň) göz öňine tutulmagy, ugradylýan ýükleriň geçýän çäklerinde howply faktorlaryň barlygyny anyklamaklyk üçin deslapky barlag çäreleriniň geçirilmegi, ýükleri kabul etmegiň, ibermegiň we tabşyrmagyň ygtybarly usullarynyň gurnalmagy, ýollarda dynç alyş duralgalarynyň meýilleşdirilmegi, awtoulaglara ýangyç guýyş nokatlarynda ulaglara ýangyjyň guýulmasy, lukmançylyk bellikleriň amala aşyrylmasy, ýükleriň gelen wagtynyň takyk hasaplanmasy, ýükleriň gorag gullugynyň wekilleri tarapyndan ugradylmagyny öz içine alýar.',
       
       'uslugap4' : 'Gorag toplumy esasynda gymmat bahaly harytlaryň daşalmagyny dogry gurnamak - munyň özi  Müşderä ýüküň 100% bitewiligini we abatlygyny kepillendirilýär.',
       'uslugap5' : 'Biz hyzmatlarymyzy her bir Müşderiniň aýratyn zerurlyklaryna görä uýgunlaşdyryp, çeýe we ygrarly nyrh bilen resmi şertnamalaryň baglaşylmagynyň esasynda ygtybarly hyzmatdaşlygy üpjün edýäris.',
@@ -310,7 +314,7 @@ var arrLang = {
       'r8c1' : 'Desganyň howpsuzlyk ulgamynyň hyzmaty',
       'r8c2' : 'Desganyň howpsuzlyk ulgamynyň tehniki hyzmaty  kiçi, orta, uly göwrümli',
       'aftertable' : 'Esasy maksadymyz dogruçyllyga we hünärmenlige eýerip, Müşderilerimiziň isleglerini ýokary derejeli howpsuzlyk hyzmatlary bilen kanagatlandyrmak. Biziň işimiz  Müşderilerimiziň häzirki döwrüň standartlaryna laýyk gelýän  howpsuzlygny we özboluşly çözgütlerini taýýarlamaga gönükdirilendir.',
-      'you_get' : '«BIZIŇ ÜSTÜNLIGIMIZ – SIZIŇ HOWPSUZLYGYŇYZ»',
+      'you_get' : 'BIZIŇ ÜSTÜNLIGIMIZ – SIZIŇ HOWPSUZLYGYŇYZ',
       'services_end' : '2016-njy ýylyň iýulyndan 2022-nji ýylyň iýulyna çenli kompaniýamyz Günorta Koreýanyň «HYUNDAI ENGINEERING Co. LTD» kompaniýasyna TACE - Türkmenbaşy etrabynyň, Gyýanly obasynyň çäginde etan kreýking enjam bilen polietilen we polipropilen öndürýän zawodyň gurluşygy Taslamasynda şeýle hem Türkmenistanyň Balkan welaýatynyň Türkmenbaşy şäherindäki nebiti gaýtadan işleýän zawodlar toplumynda TORE – mazut ýagynyň wakum distilýasiýasy, ýeňil olefinleriň alkilýasiýasy we benziniň garyndysy boýunça taslamalaryny düzmek, enjamlaryny satyn almak we gurmak Taslamasynda gorag hyzmatlaryny amala aşyrdy.',
 
 
@@ -322,7 +326,7 @@ var arrLang = {
       'gal4' : 'Obýektiň perimetriniň barlagy',
       'gal5' : 'Desganyň içki we göýberiş tertibiniň üpjünçiligi',
       'gal6' : 'Arassaçylyk we lukmançylyk gözegçiligi',
-      'gal7' : 'Uzakdan dolandyryş',
+      'gal7' : 'Wideo gözegçilik usuly arkaly dolandyryş',
       'gal8' : 'Ulaglaryň giriş-çykyş nokadynda gözegçilik',
       'gal9' : 'El goşlarynyň barlagy',
       'gal10' : 'Uly agramly ulaglaryň barlagy',
@@ -339,6 +343,8 @@ var arrLang = {
       // TODO:
     'en': {
 
+      'companyn1' : '"Zehinli Doganlar"',
+      'companyn2' : 'Economic Society',
       'home' : 'Home',
       'about' : 'About',
       'services' : 'Services',
@@ -354,7 +360,7 @@ var arrLang = {
 
 
       
-    'about_shortly'  : 'The main activity of the economic company is the provision of security services, specializing in services for the physical and console protection of objects and their perimeter. The list of the company\'s services includes unarmed security of objects and property, provision of inside the object and access control at the objects, installation and maintenance of security and alarm systems. The company provides security services to individuals, small and large enterprises, as well as foreign companies operating in the territory of Turkmenistan.',
+    'about_shortly'  : 'The main activity of the economic company is the provision of security services, specializing in services for the physical and console protection (remote security) of objects and their perimeter. The list of the company\'s services includes unarmed security of objects and property, provision of inside the object and access control at the objects, installation and maintenance of security and alarm systems. The company provides security services to individuals, small and large enterprises, as well as foreign companies operating in the territory of Turkmenistan.',
     'learn_more'  : 'Learn more',
     'section1p'  : ' “Zehinli doganlar” is a reliable representative in the field of security services',
     'kartocka1_f'  : 'Unarmed day and night security',
@@ -414,7 +420,7 @@ var arrLang = {
       
       
     'about_p1' : 'Private security company "Zehinli Doganlar" was founded on June 22, 2016 and reregistered on May 29, 2020 as a business entity in order to acquire additional codes for the SCEA (the state classifier of types of economic activities). The enterprise operates on the basis of the Unified State Register No. 24594443 dated May 29, 2020 and the Charter of the enterprise issued by the Ministry of Economy and Development of Turkmenistan.',
-    'about_p2' : 'The main activity of the economic company is the provision of security services, specializing in services for the physical and console protection of objects and their perimeter. The list of the company\'s services includes unarmed security of objects and property, provision of inside the object and access control at the objects, installation and maintenance of security and alarm systems. The company provides security services to individuals, small and large enterprises, as well as foreign companies operating in the territory of Turkmenistan.',
+    'about_p2' : 'The main activity of the economic company is the provision of security services, specializing in services for the physical and console protection (remote security) of objects and their perimeter. The list of the company\'s services includes unarmed security of objects and property, provision of inside the object and access control at the objects, installation and maintenance of security and alarm systems. The company provides security services to individuals, small and large enterprises, as well as foreign companies operating in the territory of Turkmenistan.',
     'about_p3' : 'The economic society "Zehinli Doganlar" carries out its security activities in accordance with the unified SCEA (State Classification of Economic Activities), introduced on 01.01.2014, section 80, group 80.1, class 80.10, which includes the activities of security guards, watchmen, security gate men, guard services and group 80.2, class 80.20, which includes ensuring the functioning of security systems.',
     'about_p4' : '"Zehinli Doganlar" Economic Society has all the necessary regulatory documents and resources to perform security services, including transport and PPE for security guards. The company provides qualified security guards with experienced staff who work 24 hours a day for 7 (seven) days a week. Security services are provided 24 hours a day.',
     'about_p5' : 'Also, the company releases the Customer from all kinds of risks related to the health of security workers, injuries at the workplace, etc., since the employees are insured against possible risks of injuries at the workplace.',
@@ -484,7 +490,7 @@ var arrLang = {
     'r8c1' : 'Maintenance of the facility security system',
     'r8c2' : 'Maintenance of object security systems of small, medium, large capacity',
     'aftertable' : 'Our main goal is to provide impeccable security services that exceed the expectations and needs of our clients, based on integrity and professionalism. Our work is focused on developing unique solutions for the security of our customers that correspond to the realities of today.',
-    'you_get' : '"OUR SUCCESS - YOUR SAFETY"',
+    'you_get' : 'OUR SUCCESS - YOUR SAFETY',
     'services_end' : 'From July 2016 to July 2022, our company provided security services to the South Korean company HYUNDAI ENGINEERING Co. LTD" under the TACE project - construction of a plant for the production of polyethylene and polypropylene with an ethane cracking unit, in the territory of the Kiyanly village, Turkmenbashi etrap and the TORE project - design, purchase and construction of vacuum distillation units for fuel oil, alkylation of light olefins, blending of gasoline located in the Turkmenbashi etrap KNPZ, a shift camp in the city of Turkmenbashi, Balkan province of Turkmenistan.',
       
 // Gallery page
