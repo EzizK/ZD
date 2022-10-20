@@ -2238,9 +2238,9 @@ th[scope=row] {
 .gallery__hrz .gallery__text {
   max-width: fit-content;
   padding: 0.2rem 0.5rem;
-  left: 38%;
+  left: 40%;
   /* flex-wrap: wrap; */
-  font-size: 1rem;
+  font-size: 18px;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
