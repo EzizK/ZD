@@ -390,9 +390,9 @@ var arrLang = {
     'ls12'  : '24/7 support',
     'ls13'  : 'Quiet life and the ability to concentrate on your goals without worrying about security',
     'summary'  : '"Zehinli Doganlar" security company is a smart choice for protecting any object. We are a recognized leader in the field of security, maintaining security standards and ensuring the safety of everything we are responsible for. ',
-    'section2h3'  : 'Focus on what is important to you,  ',
+    'section2h3'  : 'Focus on what is important to you  ',
     'section2h32'  : ' and we will take care of your safety!',
-    'section3h3'  : 'Turning to "Zehinli doganlar" ',
+    'section3h3'  : 'Turning to the private security company "Zehinli doganlar" ',
     'section3p'  : ' you will keep your property intact and safe!',
     'how_we_work'  : ' How we are working',
     'contract'  : ' Contract',
@@ -411,7 +411,7 @@ var arrLang = {
     'adres1'  : ' legal address',
     'adres1desc'  : '745110, Turkmenistan, Balkan state, Gumdag city, complex of residential buildings no 15, house 88. ',
     'adres2'  : ' physical address',
-    'adres2desc'  : '745000, Turkmenistan, Balkan state, Turkmenbashy city, shopping center "Shagadam", room no: 31 ',
+    'adres2desc'  : '745000, Turkmenistan, Balkan state, Turkmenbashi city, shopping center "Shagadam", room no: 31 ',
     'send_message' : 'Send message',
   
 
@@ -424,9 +424,9 @@ var arrLang = {
     'about_p3' : 'The economic society "Zehinli Doganlar" carries out its security activities in accordance with the unified SCEA (State Classification of Economic Activities), introduced on 01.01.2014, section 80, group 80.1, class 80.10, which includes the activities of security guards, watchmen, security gate men, guard services and group 80.2, class 80.20, which includes ensuring the functioning of security systems.',
     'about_p4' : '"Zehinli Doganlar" Economic Society has all the necessary regulatory documents and resources to perform security services, including transport and PPE for security guards. The company provides qualified security guards with experienced staff who work 24 hours a day for 7 (seven) days a week. Security services are provided 24 hours a day.',
     'about_p5' : 'Also, the company releases the Customer from all kinds of risks related to the health of security workers, injuries at the workplace, etc., since the employees are insured against possible risks of injuries at the workplace.',
-    'about_p6' : 'From July 2016 to July 2022, our company provided security services to the South Korean company “HYUNDAI ENGINEERING Co. LTD” under the TACE project - construction of a plant for the production of polyethylene and polypropylene with an ethane cracker unit, in the territory of Kiyanly village, Turkmenbashi etrap and the TORE project - design, purchase and construction of vacuum distillation units for fuel oil, alkylation of light olefins, blending of gasoline located in the Turkmenbashi etrap KNPZ, a shift camp in the city of Turkmenbashi, Balkan province of Turkmenistan.',
-    'about_p7' : '"Zehinli Doganlar" Economic Society actively participates in tenders held by foreign companies such as “CNPC International” (T-n), “ENI” (T-n), “Petronas Çarigali” (T-n), operating on the basis of an agreement on the distribution of products and the Law of Turkmenistan "On hydrocarbon resources", and also the South Korean company “Hyundai Engineering Co. ltd.”',
-    'about_p8' : 'The goal of the company corresponds to its motto "Integrity and safety", since the main task is to take prompt measures to prevent unauthorized intrusions, as well as to ensure the integrity and safety of the property of the protected object.',
+    'about_p6' : 'From July 2016 to July 2022, our company provided security services to the South Korean company “HYUNDAI ENGINEERING Co. LTD” under the TACE project - construction of a plant for the production of polyethylene and polypropylene with an ethane cracker unit, in the territory of the Kiyanly village, Turkmenbashi district and the TORE project - design, purchase and construction of vacuum distillation units for fuel oil, alkylation of light olefins, blending of gasoline located in the Turkmenbashi Oil Refinery Complex, a shift camp in the city of Turkmenbashi, Balkan state of Turkmenistan.',
+    'about_p7' : '“Zehinli Doganlar” Economic Society actively participates in tenders held by foreign companies such as “CNPC International” (T-n), “ENI” (T-n), “Petronas Çarigali” (T-n), operating on the basis of an agreement on the distribution of products and the Law of Turkmenistan "On hydrocarbon resources", and also the South Korean company “Hyundai Engineering Co. ltd.” ',
+    'about_p8' : 'The goal of the company corresponds to its motto "Integrity and safety", since the main task is to take prompt measures to prevent unauthorized intrusions, as well as to ensure the integrity and safety of the property of the protected object. ',
     'about_p9' : 'Contact us and you will keep your property safe and sound!',
     'diversifikasiya_title' : 'ENTERPRISE DIVERSIFICATION',
     'diversifikasiya_text' : 'In order to diversify the activities of the economic society, in 2020, work was established on the maintenance of cars and the provision of catering services, and in January 2021, a contract was signed with the Agency of the State Fish Protection and Control of Aquatic Biological Resources of Turkmenistan for the extraction of fish and biological resources in the Turkmen part waters of the Caspian Sea. In addition, the company maintains trade relations with such countries as the United Arab Emirates, China, Turkey, Russia, Azerbaijan and Kazakhstan.',
@@ -435,7 +435,7 @@ var arrLang = {
     'our_clients' : 'OUR FOREIGN SALES REPRESENTATIVES',
     'charity_title' : 'charity',
     'charity_h3' : '“Good deeds give strength to ourselves and encourage others to do good deeds”',
-    'charity_1' : 'Since 2019, "Zehinli Doganlar" Economic Society has been engaged in charitable activities. The first step was taken in April 2019 by contributing funds for the construction of the main mosque of the Balkan velayat in the city of Balkanabat',
+    'charity_1' : 'Since 2019, "Zehinli Doganlar" Economic Society has been engaged in charitable activities. The first step was taken in April 2019 by contributing funds for the construction of the main mosque of the Balkan state in the city of Balkanabat',
     'charity_2' : 'Provide rehabilitation treatment to Rehabilitation Center in Ashgabat for the Disabled of Turkmenistan',
     'charity_3' : 'To the National Center for Special Olympics of Turkmenistan (NTSOT) in the purchase of sports equipment, sports equipment for the upcoming championships in sports, where people with Down syndrome and intellectually disabled people take part',
     'charity_4' : 'To the Society of the Deaf and Dumb in Balkanabat to improve the conditions for the maintenance of children with disabilities',
@@ -491,7 +491,7 @@ var arrLang = {
     'r8c2' : 'Maintenance of object security systems of small, medium, large capacity',
     'aftertable' : 'Our main goal is to provide impeccable security services that exceed the expectations and needs of our clients, based on integrity and professionalism. Our work is focused on developing unique solutions for the security of our customers that correspond to the realities of today.',
     'you_get' : 'OUR SUCCESS - YOUR SAFETY',
-    'services_end' : 'From July 2016 to July 2022, our company provided security services to the South Korean company HYUNDAI ENGINEERING Co. LTD" under the TACE project - construction of a plant for the production of polyethylene and polypropylene with an ethane cracking unit, in the territory of the Kiyanly village, Turkmenbashi etrap and the TORE project - design, purchase and construction of vacuum distillation units for fuel oil, alkylation of light olefins, blending of gasoline located in the Turkmenbashi etrap KNPZ, a shift camp in the city of Turkmenbashi, Balkan province of Turkmenistan.',
+    'services_end' : 'From July 2016 to July 2022, our company provided security services to the South Korean company  “HYUNDAI ENGINEERING Co. LTD” under the TACE project - construction of a plant for the production of polyethylene and polypropylene with an ethane cracking unit, in the territory of  Kiyanly village, Turkmenbashi district and the TORE project - design, purchase and construction of vacuum distillation units for fuel oil, alkylation of light olefins, blending of gasoline located in the Turkmenbashi Oil Refinery Complex, a shift camp in the city of Turkmenbashy, Balkan state of Turkmenistan.',
       
 // Gallery page
       // TODO:
