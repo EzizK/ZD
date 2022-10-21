@@ -93,13 +93,13 @@ var arrLang = {
       'our_clients' : 'НАШИ ЗАРУБЕЖНЫЕ ТОРГОВЫЕ ПРЕДСТАВИТЕЛИ',
       'charity_title' : 'БЛАГОТВОРИТЕЛЬНОСТЬ',
       'charity_h3' : '«Добрые дела дают силы нам самим и побуждают к добрым поступкам других»',
-      'charity_1' : 'Хозяйственное общество «Зехинли доганлар» начиная с 2019 года занимается благотворительной деятельностью. Первый шаг был сделан в апреле 2019 года путем внесения денежных средств на строительство главной мечети Балканского велаята в городе Балканабат.',
-      'charity_2' : 'Для обеспечения восстановительного лечения инвалидов с детства и инвалидов-спортсменов нами была оказана финансовая помощь Реабилитационному Центру инвалидов Туркменистана в г. Ашгабат.',
-      'charity_3' : 'С целью приобретения спортивной экипировки, спортивного инвентаря для проведения предстоящих чемпионатов по видам спорта, где принимают участие люди с синдромом Дауна и инвалиды по интеллекту были переданы денежные средства Национальному Центру Специальной  Олимпиады Туркменистана (НЦСОТ).',
-      'charity_4' : 'Для улучшения условий содержания детей инвалидов и организации поездок по святым местам, а также отдыха в оздоровительных центрах нами была оказана финансовая поддержка Общества слепых и глухих  в г. Балканабат  Балканского велаята.',
-      'charity_5' : 'Нами была проведена финансовая поддержка Предпринимателя Х. Годанова, который по просьбе местного населения создал историко-краеведческого музей в г. Этрек Этрекского этрапа Балканского велаята.',
-      'charity_6' : 'В связи с проведением дня инвалидов и людей с ограниченными возможностями, а так же содействие в улучшении оказываемых услуг со стороны Общества Инвалидов Туркменистана нами была предоставлена финансовая помощь.',
-      'charity_end' : 'Хозяйственное общество «Зехинли доганлар» планирует продолжить благотворительную деятельность, так как лучший способ сохранить память о добрых делах-повторять их.',
+      'charity_1' : 'Хозяйственное общество «Зехинли доганлар» начиная с 2019 года занимается благотворительной деятельностью. Первый шаг был сделан в апреле 2019 года путем внесения денежных средств на строительство главной мечети Балканского велаята в городе Балканабат',
+      'charity_2' : 'Для обеспечения восстановительного лечения инвалидов с детства и инвалидов-спортсменов нами была оказана финансовая помощь Реабилитационному Центру инвалидов Туркменистана в г. Ашгабат',
+      'charity_3' : 'С целью приобретения спортивной экипировки, спортивного инвентаря для проведения предстоящих чемпионатов по видам спорта, где принимают участие люди с синдромом Дауна и инвалиды по интеллекту были переданы денежные средства Национальному Центру Специальной  Олимпиады Туркменистана (НЦСОТ)',
+      'charity_4' : 'Для улучшения условий содержания детей инвалидов и организации поездок по святым местам, а также отдыха в оздоровительных центрах нами была оказана финансовая поддержка Общества слепых и глухих  в г. Балканабат  Балканского велаята',
+      'charity_5' : 'Нами была проведена финансовая поддержка Предпринимателя Х. Годанова, который по просьбе местного населения создал историко-краеведческого музей в г. Этрек Этрекского этрапа Балканского велаята',
+      'charity_6' : 'В связи с проведением дня инвалидов и людей с ограниченными возможностями, а так же содействие в улучшении оказываемых услуг со стороны Общества Инвалидов Туркменистана нами была предоставлена финансовая помощь',
+      'charity_end' : 'Хозяйственное общество «Зехинли доганлар» планирует продолжить благотворительную деятельность, так как лучший способ сохранить память о добрых делах-повторять их',
 
       // Services.html SAHYPASYNDAKYLAR
             // TODO:
@@ -265,7 +265,7 @@ var arrLang = {
       'charity_4' : 'Balkan welaýatynyň Balkanabat şäherindäki körler we kerler jemgyýetine maýyp çagalaryň ýaşaýyş şertlerini gowulandyrmak üçin geçirilýän maliýe goşandy ',
       'charity_5' : 'Balkan welaýatynyň Etrek etrabynyň  ýaşaýjysy we telekeçi H. Godanowa  ýerli halkyň haýyşy boýunça, Etrek şäherinde taryhy – ülkäni öwreniş muzeýini döretmekde berilen maliýe kömegi',
       'charity_6' : 'Ýurtda mümkinçiligi çäkli we maýyplar gününiň geçirilmegi sebäpli hem-de maýyplara edilýän hyzmatlaryň hilini gowlandyrmaklyk üçin biz tarapdan Türkmenistanyň Maýyplar Jemgyýetine geçirilýän maliýe kömegi',
-      'charity_end' : '«Zehinli doganlar» hojalyk jemgyýeti haýyr-sahawat işlerini mundan beýläkde dowam etdirmegi meýilleşdirýär, sebäbi ýagşy amallary ýatda saklamagyň iň gowy usuly - olary gaýtalamakdyr. ',
+      'charity_end' : '«Zehinli doganlar» hojalyk jemgyýeti haýyr-sahawat işlerini mundan beýläkde dowam etdirmegi meýilleşdirýär, sebäbi ýagşy amallary ýatda saklamagyň iň gowy usuly - olary gaýtalamakdyr ',
 
 
       // Services.html SAHYPASYNDAKYLAR
@@ -443,7 +443,7 @@ var arrLang = {
     
     // FIXME: ŞUNY TÄZEDEN PEREWOD ETMELI BOLUP BILER
     'charity_6' : 'In connection with the celebration of the day of the disabled and people with disabilities, as well as assistance in improving the services provided by the Society of the Disabled of Turkmenistan, we provided financial assistance',
-    'charity_end' : 'The "Zehinli Doganlar" Economic Society plans to continue its charitable activities, as the best way to keep the memory of good deeds is to repeat them.',
+    'charity_end' : 'The "Zehinli Doganlar" Economic Society plans to continue its charitable activities, as the best way to keep the memory of good deeds is to repeat them',
       
     // Services.html SAHYPASYNDAKYLAR
     // TODO
