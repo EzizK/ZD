@@ -346,7 +346,7 @@ var arrLang = {
       'companyn1' : '"Zehinli Doganlar"',
       'companyn2' : 'Economic Society',
       'home' : 'Home',
-      'about' : 'About',
+      'about' : 'About Us',
       'services' : 'Services',
       'gallery' : 'Gallery',
       'contact' : 'Contact',
@@ -451,18 +451,18 @@ var arrLang = {
     'services_h3' : 'Fulfilling the terms of the contract is one thing, being with the client and hear him means managing business well.',
     // FIXME: shuna bir zat yazmaly bolup biler
     'services_1' : '',
-    'services_p1' : 'The competitive advantage of our company is a wide range of services, including both physical and console security services. In this regard, the company provides the following types of security services:',
+    'services_p1' : 'The competitive advantage of our company is a wide range of services, including both physical and console (remote) security services. In this regard, the company provides the following types of security services:',
     'usluga1' : 'Services of physical protection of objects - ',
     'usluga1.1' : 'a set of measures aimed at ensuring the safety of the operation of an object, the safety of its material property, the protection of life and health of its personnel. The task of physical security includes access control, inspection of vehicles, prevention of theft and plunder, bypassing the facility and the surrounding area, monitoring the video surveillance system, monitoring the actions of visitors and employees of the enterprise, protecting material assets that are freely available, taking primary measures to eliminate technical accidents and fires, prevent unauthorized access and enhance and maintain the high status of the facility/enterprise.',
       
-    'usluga2' : 'Console security services - ',
+    'usluga2' : 'Console (remote) security services - ',
     'usluga2.1' : 'are a set of electronic systems that allow to ensure the security of an object by means of round-the-clock transmission of data received via secure communication channels to the monitoring center console. Modern security systems significantly reduce the risks of illegal entry into the territory, allow you to quickly take measures to investigate the incident, if it does happen. If an emergency situation occurs at the facility, the system instantly notifies the guards about it. Alarming situations include attempted burglary, illegal entry, theft of property and similar acts.',
     
     'usluga3' : 'Cargo escort services -',
     'usluga3.1' : 'cargo escort is understood not only as the direct presence of security guards along the entire transportation route, but also as a whole range of preliminary preparation and preventive security measures. Cargo escort services include a preparatory stage - the optimal choice of transport for transportation, proper loading in compliance with security measures, equipment of transport with tracking equipment, development of an optimal and maximum safe route to the destination, taking into account the terrain and other important nuances, preliminary reconnaissance of the territory for the presence of dangerous factors, organization of safe methods of receiving, sending and issuing cargo, scheduling stops for rest, refueling with marks of medical, checkpoints, accurate calculation of the time of cargo arrival, physical escort of cargo by special agents of the service.',
     
     'uslugap4' : 'The correct organization of the transportation of valuable cargo in the presence of a security complex guarantees the customer 100% integrity and safety of the cargo.',
-    'uslugap5' : 'We tailor our services to the individual needs of each customer. We provide reliable cooperation based on the conclusion of official contracts with flexible and loyal pricing.',
+    'uslugap5' : 'We adapt our services to the individual needs of each customer. We provide reliable cooperation based on the conclusion of official contracts with flexible and loyal pricing.',
     
       
     'No' : 'No',
@@ -484,7 +484,7 @@ var arrLang = {
     'r5c2' : 'Escort of goods by a security guard',
     'r6c1' : 'Providing escort cars',
     'r6c2' : 'Escort car (2 guards)',
-    'table3' : 'Console security services',
+    'table3' : 'Console (remote) security services',
     'r7c1' : 'Installation of the facility security system',
     'r7c2' : 'Installation of an object security system of small, medium, large capacity',
     'r8c1' : 'Maintenance of the facility security system',
