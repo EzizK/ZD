@@ -439,7 +439,7 @@ var arrLang = {
     'charity_2' : 'Provide rehabilitation treatment to Rehabilitation Center in Ashgabat for the Disabled of Turkmenistan',
     'charity_3' : 'To the National Center for Special Olympics of Turkmenistan (NCSOT) in the purchase of sports equipment, sports equipment for the upcoming championships in sports, where people with Down syndrome and intellectually disabled people take part',
     'charity_4' : 'To the Society of the Deaf and Dumb in Balkanabat to improve the conditions for the maintenance of children with disabilities',
-    'charity_5' : 'To entrepreneur H. Godanov on the creation of a local history museum in the city of Etrek, Etrek etrap, Balkan region',
+    'charity_5' : 'To entrepreneur H. Godanov on the creation of a local history museum in the city of Etrek, Etrek district, Balkan region',
     
     // FIXME: ŞUNY TÄZEDEN PEREWOD ETMELI BOLUP BILER
     'charity_6' : 'In connection with the celebration of the day of the disabled and people with disabilities, as well as assistance in improving the services provided by the Society of the Disabled of Turkmenistan, we provided financial assistance',
