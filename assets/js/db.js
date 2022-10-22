@@ -495,20 +495,20 @@ var arrLang = {
       
 // Gallery page
       // TODO:
-    'gal1': 'Work on the checkpoint',
-    'gal2': 'inspection of entering transport',
+    'gal1': 'Work at the checkpoint',
+    'gal2': 'Inspection of entering transport',
     'gal3': 'Inspection of the departing transport',
-    'gal4': 'inspection of the perimeter of the object',
+    'gal4': 'Inspection of the perimeter of the object',
     'gal5': 'Providing within the object and access control',
     'gal6': 'Sanitary-medical control',
-    'gal7': 'control of remote guard',
-    'gal8': 'Control and receipt regime on the checkpoint',
-    'gal9': 'Hand luggage check-in',
+    'gal7': 'Control of remote security (guarding)',
+    'gal8': 'Control at the checkpoint',
+    'gal9': 'Checking hand luggage',
     'gal10': 'Inspection of heavy vehicles',
-    'gal11': 'Control of access control',
+    'gal11': 'Access control',
     'gal12': 'Control over passing through the turnstile',
-    'gal13': 'Composition of employees of the 1st shift',
-    'gal14': 'Composition of employees of the 2nd shift',
+    'gal13': 'Guards of the 1st shift',
+    'gal14': 'Guards of the 2nd shift',
 
     }
   };
